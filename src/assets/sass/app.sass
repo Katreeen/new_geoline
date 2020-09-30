@@ -1,0 +1,1426 @@
+//includes
+@import 'utils/font.sass'
+
+
+
+// animations
+@-webkit-keyframes mousePoint
+  0%
+    opacity: 0
+    top: 65%
+
+  20%
+    opacity: 1
+    top: 55%
+
+  40%
+    opacity: 1
+    top: 55%
+
+  60%
+    opacity: 1
+    top: 20%
+
+  61%
+    opacity: 1
+    top: 20%
+
+  67%
+    opacity: 0
+    top: 20%
+
+  100%
+    opacity: 0
+    top: 20%
+
+
+@keyframes mousePoint
+  0%
+    opacity: 0
+    top: 65%
+
+  20%
+    opacity: 1
+    top: 55%
+
+  40%
+    opacity: 1
+    top: 55%
+
+  60%
+    opacity: 1
+    top: 20%
+
+  61%
+    opacity: 1
+    top: 20%
+
+  67%
+    opacity: 0
+    top: 20%
+
+  100%
+    opacity: 0
+    top: 20%
+
+//base
+body, html
+  height: 100%
+  margin: 0
+  scrollbar-color: #0B7CD3 #F8F8F8
+  scrollbar-width: 3px
+body
+  font-size: 16px
+  font-family: 'mont-medium', serif
+  background-color: #F8F8F8
+  overflow-x: hidden
+  &::-webkit-scrollbar
+    width: 5px
+    &-track
+      background-color: #F8F8F8
+      box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1)
+    &-thumb
+      background-color: #0B7CD3
+      border-radius: 5px
+a
+  text-decoration: underline
+  color: #0B7CD3
+  font-family: 'got-regular'
+  &:hover
+    text-decoration: none
+p
+  font-size: 16px
+  color: #5F5F5F
+  line-height: 25px
+  margin: 0 0 35px 0
+  display: block
+  font-family: 'got-regular',serif
+b
+  font-family: 'mont-bold', Serif
+ul
+  list-style: none
+  margin: 0
+  padding: 0
+.svg-icons
+  position: absolute
+  opacity: 0
+  height: 0
+  top: 0
+.container
+  position: relative
+  display: grid
+  grid-template-columns: repeat(12, 1fr)
+  grid-column-gap: 40px
+  width: 1720px
+  max-width: 100%
+  margin: 0 auto
+.d-flex
+  display: flex
+.title
+  font-size: 30px
+  font-family: 'mont-bold', serif
+  margin-bottom: 50px
+.only-mobile, .only-tablet, .only-laptop, .only-1280
+  display: none
+img
+  max-width: 100%
+.section-in
+  padding-bottom: 100px
+//header
+.header
+  position: fixed
+  top: 0
+  left: 0
+  right: 0
+  margin: 0 auto
+  height: 92px
+  z-index: 100
+  display: flex
+  align-items: center
+  width: 1720px
+  max-width: 100%
+  &__fade
+    opacity: 0
+    transition: .3s all ease-in-out
+  .logo_blue
+    display: none
+//page-header
+.page-header
+  opacity: 1
+  .logo
+    display: none
+  //.logo_white
+  //  display: none
+  //.logo_blue
+  //  display: block
+  .container
+    width: calc(100% - 497px)
+    background-color: #F8F8F8
+    height: 100%
+    margin: 0 0 0 auto
+  .top-phone
+    display: none
+  .nav
+    grid-column: 7/ span 13
+    position: relative
+    &__link
+      color: #2F2F2F
+    &__item:hover .nav__link
+      color: #0B7CD3
+    &__item_sub
+      &:after
+        background-image: url("data:image/svg+xml,%3Csvg width='4' height='3' viewBox='0 0 4 3' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.97876 2.15932L0.109619 0.290283H3.8478C4.11489 0.290283 2.71306 1.53631 1.97876 2.15932Z' fill='black'/%3E%3C/svg%3E%0A")
+      &_active .nav__link, &:hover .nav__link
+        color: #0B7CD3
+      &_active:after, &:hover:after
+        background-image: url("data:image/svg+xml,%3Csvg width='5' height='3' viewBox='0 0 5 3' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2.65601 2.15932L0.786865 0.290283H4.52505C4.79214 0.290283 3.39031 1.53631 2.65601 2.15932Z' fill='%230B7CD3'/%3E%3C/svg%3E%0A")
+        background-repeat: no-repeat
+    &__sub
+      &_item
+        background-color: #0B7CD3
+      &_link
+        color: #fff
+  .logo__caption
+    color: #252525
+// first
+.top-slider
+  overflow: hidden
+  margin-bottom: 0
+.first
+  background-color: #0079D4
+  background-repeat: no-repeat
+  background-size: cover
+  padding: 35px 0 50px
+  box-sizing: border-box
+  &:focus, &:active
+    outline: none
+    border: 0
+  &__ctn
+    align-items: center
+    position: relative
+    //grid-template-rows: minmax(100px, auto) -webkit-calc(100vh - 100px)
+    //grid-template-rows: minmax(100px, auto) calc(100vh - 100px)
+    height: 100vh
+  &__head
+    align-items: center
+    grid-column: 1 / span 13
+    display: grid
+    grid-template-columns: repeat(12, 1fr)
+  &__content
+    grid-column: 1 / span 13
+    display: grid
+    grid-template-columns: repeat(12, 1fr)
+    position: relative
+    z-index: 1
+  &__bottom
+    grid-column: 1 / span 13
+    display: grid
+    grid-template-columns: repeat(12, 1fr)
+    position: relative
+.logo
+  grid-column: 1 / 3
+  align-items: center
+  &__caption
+    color: #fff
+    margin-left: 20px
+    font-family: 'gil-bold', serif
+    font-size: 30.59px
+    line-height: 21px
+.nav
+  grid-column: 7 / 11
+  position: relative
+  &__wrapper
+    justify-content: space-between
+  &__item
+    transition: .5s all ease-in-out
+    display: flex
+    align-items: center
+    cursor: pointer
+    &_sub
+      &:after
+        content: ''
+        display: block
+        background-image: url("data:image/svg+xml,%3Csvg width='5' height='2' viewBox='0 0 5 2' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2.68506 1.92456L0.815918 0.0555191H4.5541C4.82119 0.0555191 3.41936 1.30155 2.68506 1.92456Z' fill='%2378C0FF'/%3E%3C/svg%3E%0A")
+        background-repeat: no-repeat
+        width: 5px
+        height: 2px
+        margin-left: 10px
+        padding-bottom: 5px
+      &:hover, &_active
+        &:after
+          background-image: url("data:image/svg+xml,%3Csvg width='5' height='2' viewBox='0 0 5 2' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2.27979 1.92456L0.410645 0.0555191H4.14883C4.41591 0.0555191 3.01409 1.30155 2.27979 1.92456Z' fill='white'/%3E%3C/svg%3E%0A")
+        .nav__link
+          color: #fff
+  &__link
+    color: #78C0FF
+    font-family: 'mont-regular', serif
+    font-size: 15px
+    text-decoration: none
+    transition: .5s all ease-in-out
+    padding-bottom: 10px
+    &:hover
+      color: #fff
+  &__sub
+    height: 0
+    overflow: hidden
+    opacity: 0
+    transition: all 0.5s ease-in
+    position: absolute
+    width: 725px
+    top: 20px
+    padding-top: 25px
+    right: 0
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.05)
+    border-radius: 3px
+    box-sizing: border-box
+    z-index: -1
+    &_item
+      background-color: #0B7CD3
+      padding-left: 40px
+      padding-bottom: 30px
+      &:first-child
+        padding-top: 40px
+      &:last-child
+        padding-bottom: 40px
+    &_link
+      color: #FFFFFF
+      font-size: 13px
+      font-family: 'mont-regular', serif
+      text-decoration: none
+.top-phone
+  grid-column: 11 / 13
+  display: block
+  font-size: 25px
+  text-align: right
+  font-family: 'gil-bold', serif
+  color: #fff
+  text-decoration: none
+.banner
+  color: #fff
+  &__txt
+    grid-column: 3 / 7
+  &__ttl
+    font-size: 47px
+    font-family: 'gil-bold', serif
+    line-height: 40px
+    margin-bottom: 45px
+  &__subttl
+    font-family: 'got-regular'
+    font-size: 20px
+    line-height: 30px
+.mouse
+  &__caption
+    color: #fff
+    font-size: 20px
+    font-family: 'mont-regular', serif
+    letter-spacing: 0.05em
+    line-height: 21px
+    transform: rotate(-90deg)
+    position: absolute
+    top: -110px
+    left: -55px
+    text-decoration: none
+  &__icon
+    width: 36px
+    height: 50px
+    -webkit-border-radius: 50px
+    -moz-border-radius: 50px
+    border-radius: 50px
+    border: 1px solid #fff
+    position: relative
+    grid-column: 1/2
+  &__point
+    position: absolute
+    background-color: #fff
+    width: 6px
+    height: 14px
+    -webkit-border-radius: 50%
+    -moz-border-radius: 50%
+    border-radius: 50px
+    left: 50%
+    top: 70%
+    transform: translate(-50%, 0)
+    animation-name: mousePoint
+    animation-duration: 2.3s
+    animation-iteration-count: infinite
+    animation-direction: reverse
+    animation-timing-function: linear
+    animation-fill-mode: backwards
+
+.language
+  grid-column: 12/13
+  border-bottom: 1px solid #78C0FF
+  padding-bottom: 14px
+  display: flex
+  margin-left: auto
+  position: relative
+  &__link
+    color: #78C0FF
+    font-family: 'mont-regular', serif
+    font-size: 20px
+    text-decoration: none
+    transition: .5s all ease-in-out
+    &_rus
+      padding-right: 10px
+      &.is-active:after
+        left: 0
+        width: 50%
+    &_eng
+      padding-left: 10px
+      &.is-active:after
+        left: 50%
+        width: 55%
+    &:hover, &.is-active
+      color: #fff
+    &:after
+      content: ''
+      height: 4px
+      background-color: #fff
+      display: block
+      position: absolute
+      bottom: -1px
+      transition: .5s all ease-in-out
+
+.slider
+  &__counter
+    color: #fff
+    position: absolute
+    top: 45%
+    right: 7%
+    display: flex
+    align-items: flex-end
+    z-index: 10
+  &__number
+    font-family: 'mont-light', serif
+    font-size: 200px
+    position: relative
+    &:after
+      content: ''
+      width: 136px
+      height: 136px
+      display: block
+      background-image: url("data:image/svg+xml,%3Csvg width='136' height='136' viewBox='0 0 136 136' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.22754 135.06L135.387 0.89975' stroke='white'/%3E%3C/svg%3E%0A")
+      position: absolute
+      top: 50%
+      right: -60px
+  &__count
+    font-size: 50px
+    font-family: 'mont-regular'
+    color: #5EACF0
+  &__dots
+    position: absolute
+    bottom: 160px
+    max-width: 100%
+    width: 1140px
+    left: 0
+    right: 0
+    margin: 0 auto
+    display: flex
+    .owl-dots
+      display: flex
+      li
+        width: 53px
+        position: relative
+        display: inline-block
+        outline: none
+        height: 15px
+    button.block-dots
+      font-size: 0
+      width: 17px
+      height: 17px
+      -webkit-border-radius: 50px
+      -moz-border-radius: 50px
+      -webkit-border-radius: 50px
+      -moz-border-radius: 50px
+      border-radius: 50px
+      background-clip: padding-box
+      background-color: transparent
+      border: 2px solid #fff
+      transition: .3s all ease-in-out
+      cursor: pointer
+      &:focus, &:active
+        outline: none
+        border: 0
+.dots-wrap
+  position: relative
+  filter: url(#goo)
+  -webkit-filter: url(#goo)
+  button.owl-dot
+    position: relative
+    display: inline-block
+    width: 17px
+    height: 17px
+    padding: 0
+    line-height: 34px
+    background-color: #fff
+    border: 2px solid #fff
+    -webkit-border-radius: 50px
+    -moz-border-radius: 50px
+    -webkit-border-radius: 50px
+    -moz-border-radius: 50px
+    margin-right: 25px
+    outline: none
+    appearance: none
+    transition: background-color .5s, width .5s ease-out
+  button.owl-dot
+    &:hover
+      background-color: #fff
+  button.owl-dot.active
+    background-color: #fff
+    width: 55px
+  .dot-current-bg
+    position: absolute
+    top: 0
+    background-color: #fff
+    width: 27px
+    height: 17px
+    border-radius: 50px
+    margin: 0
+    transition: left .5s ease-out, width .5s ease-out
+    border: 0
+    z-index: 10
+.owl-theme .owl-dots .owl-dot span
+  width: 0
+  &:hover
+    background-color: transparent
+.owl-svg
+    position: fixed
+    z-index: -99
+.safari .dots-wrap
+  filter: none
+
+.opportunities
+  .container
+    position: static
+//sidebar
+.sticky-wrapper
+  width: 497px
+  grid-column: 1/4
+  min-height: 100vh
+.sidebar
+  background-color: #fff
+  max-width: 100%
+  width: 497px
+  padding-right: 100px
+  position: relative
+  top: 0
+  padding-bottom: 60px
+  box-sizing: border-box
+  min-height: 100vh
+  &:before
+    content: ''
+    height: 100%
+    width: 100px
+    left: -100px
+    background-color: #fff
+    position: absolute
+    z-index: 10
+    top: 0
+  .logo
+    margin-bottom: 55px
+    text-decoration: none
+    position: relative
+    z-index: 100
+    svg
+      opacity: 0
+  .logo__caption
+    color: #252525
+    opacity: 0
+  &__nav
+    &_wr
+      &_top
+        margin-bottom: 50px
+      &_bottom
+        margin-bottom: 30px
+    &_item
+      margin-bottom: 20px
+      &:last-child
+        margin-bottom: 0
+    &_link
+      font-family: 'got-regular', serif
+      color: #5F5F5F
+      font-size: 18px
+      text-decoration: none
+      transition: .5s all ease-in-out
+      &:hover
+        color: #0B7CD3
+  &__contacts
+    justify-content: space-between
+    align-items: center
+    position: absolute
+    bottom: 50px
+    width: calc(100% - 100px)
+  &__social
+    &_item
+      background-color: #0B7CD3
+      width: 40px
+      height: 40px
+      display: flex
+      justify-content: center
+      align-items: center
+      -webkit-border-radius: 50%
+      -moz-border-radius: 50%
+      border-radius: 50%
+      &:first-child
+        margin-right: 30px
+  &__phone
+    text-decoration: none
+    font-size: 20px
+    font-family: 'mont-bold', serif
+    color: #1D2022
+.sidebar-start
+  .logo
+    svg
+      opacity: 1
+  .logo__caption
+    opacity: 1
+
+//content
+.content
+  grid-column: 5/13
+  padding-top: 160px
+  box-sizing: border-box
+  margin-right: 50px
+  &__in
+    margin-top: 30px
+    margin-bottom: 90px
+    background-color: transparent
+    .title
+      font-size: 25px
+      font-family: 'mont-medium', serif
+      color: #252525
+      margin-bottom: 20px
+    &_design
+      background-repeat: no-repeat
+      &_right
+        background-position: right top
+      &_left
+        background-position: left top
+        .title
+          text-align: center
+          margin-right: 50px
+          padding-top: 20px
+  &__flex
+    justify-content: flex-end
+    margin-right: 50px
+.line-list
+  li
+    position: relative
+    color: #262626
+    padding-left: 50px
+    color: #262626
+    font-family: 'got-regular'
+    font-size: 14px
+    line-height: 20px
+    margin-bottom: 1.5em
+    &:before
+      content: ''
+      display: block
+      width: 20px
+      height: 2px
+      background-color: #999999
+      background-repeat: no-repeat
+      position: absolute
+      left: 0
+      top: 44%
+.js-ui-accordion
+  &_open
+    display: none
+  &_click
+    background-color: #fff
+    cursor: pointer
+    color: #262626
+    font-family: 'mont-medium', serif
+    padding: 18px 20px
+    border-radius: 3px
+    margin-bottom: 32px
+    position: relative
+    &:before
+      content: ''
+      width: 24px
+      height: 28px
+      background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg width='24' height='48' viewBox='0 -3.492 24 48' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M 8.23 -2.281 L 8.23 8.477 M 2.418 3.099 L 14.044 3.099' stroke='%230B7CD3' stroke-width='2' stroke-linecap='round' style=''/%3E%3Cpath d='M 2.355 14.295 L 14.045 14.295' stroke='white' stroke-width='2' stroke-linecap='round' style=''/%3E%3Cpath d='M7.89243 327L7.89243 340.785M1 333.892L14.7848 333.892' stroke='%230B7CD3' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E")
+      background-position: -2px 1px
+      background-repeat: no-repeat
+      display: block
+      position: absolute
+      right: 15px
+      top: 30%
+    &.is-active
+      background-color: #0B7CD3
+      color: #fff
+      &:before
+        background-position: 0px -9px
+.case
+  padding: 90px 0
+  box-sizing: border-box
+  background-color: #fff
+  position: relative
+  grid-column: 5/13
+  &:before, &:after
+    content: ''
+    background-color: #fff
+    height: 100%
+    width: 90px
+    position: absolute
+    top: 0
+  &:before
+    left: -90px
+  &:after
+    right: -90px
+  &__wrapper
+    display: flex
+    justify-content: space-between
+  &__item
+    box-sizing: border-box
+    width: 340px
+    margin-right: 20px
+    flex: 0 0 340px
+    max-width: 340px
+    margin-bottom: 50px
+    color: #000
+    text-decoration: none
+    &:last-child
+      margin-right: 0
+  .slick-slide
+    padding: 0 27px 0 0
+  &__ttl
+    font-family: 'mont-medium', Serif
+    font-size: 25px
+    text-transform: uppercase
+    margin-bottom: 25px
+  &__list
+    font-family: 'got-regular', Serif
+    font-size: 14px
+    margin-bottom: 40px
+    span
+      margin-bottom: 20px
+      display: block
+      b
+        font-family: 'got-medium', Serif
+  &__link
+    font-size: 14px
+    font-family: 'got-regular', Serif
+    color: #262626
+    &:hover
+      color: #0B7CD3
+      text-decoration: underline
+  .swiper-scrollbar
+    background-color: transparent
+    opacity: 1 !important
+  .swiper-scrollbar-drag
+    background-color: #0B7CD3
+  .swiper-container-horizontal>.swiper-scrollbar
+    left: 0
+.cases
+  padding-top: 160px
+  &__wr
+    flex-wrap: wrap
+  &__item
+    margin-bottom: 30px
+    padding: 0
+  &__btn
+    background-color: #0B7CD3
+    font-size: 14px
+    font-family: 'mont-medium', serif
+    width: 200px
+    height: 50px
+    display: flex
+    justify-content: center
+    align-items: center
+    -webkit-border-radius: 3px
+    -moz-border-radius: 3px
+    border-radius: 3px
+    color: #fff
+    border: 0
+    margin: 50px auto
+    text-decoration: none
+.case-in
+  &__banner
+    margin-bottom: 40px
+  &__subttl
+    font-size: 20px
+    line-height: 28px
+    margin-bottom: 42px
+  &__design
+    display: flex
+    align-items: flex-start
+    justify-content: space-between
+    margin-bottom: 35px
+    &_txt, img
+      max-width: 50%
+  &__nav
+    margin-bottom: 60px
+    &-item
+      align-items: center
+      margin-bottom: 30px
+      text-decoration: none
+      transition: .3s all ease-in-out
+    &-icon
+      flex: 0 0 10%
+      svg
+        fill: #BFBFBF
+        transition: .3s all ease-in-out
+    &-caption
+      font-size: 18px
+      font-family: 'got-regular'
+      color: #5F5F5F
+    &-item:hover &-caption, &-item.active &-caption
+      color: #0B7CD3
+    &-item:hover svg, &-item.active svg
+      fill: #0B7CD3
+.dots-list
+  list-style: disc
+  font-family: 'got-regular', serif
+  margin-left: 15px
+  margin-bottom: 35px
+  li
+    margin-top: 1.5em
+
+.cases2
+  &__item
+    flex-direction: column
+    justify-content: center
+    height: 240px
+    position: relative
+    padding: 0 80px
+    box-sizing: border-box
+    margin-bottom: 15px
+    background-repeat: no-repeat
+    background-size: cover
+    &:last-child
+      margin-bottom: 0
+    &:before
+      content: ''
+      position: absolute
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+      background-color: rgba(0,0,0,0.5)
+  &__info
+    color: #fff
+    font-family: 'mont-bold', serif
+    max-width: 50%
+    z-index: 10
+  &__ttl
+    font-size: 28px
+    line-height: 40px
+    margin-bottom: 32px
+  &__subttl
+    font-size: 20px
+    line-height: 28px
+.mCS-dark-thick.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar
+  height: 3px
+  background-color: #0B7CD3
+.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded .mCSB_dragger_bar, .mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_dragger .mCSB_dragger_bar, .mCS-dark-thick.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar, .mCS-dark-thick.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar
+  height: 5px
+  background-color: #0B7CD3
+.mCustomScrollBox + .mCSB_scrollTools.mCSB_scrollTools_horizontal, .mCustomScrollBox + .mCSB_scrollTools + .mCSB_scrollTools.mCSB_scrollTools_horizontal
+  bottom: -60px
+.mCS-dark-thick.mCSB_scrollTools .mCSB_draggerRail
+  display: none
+.footer
+  background-color: #252525
+  padding: 30px 0
+  position: relative
+  z-index: 30
+  &__logo
+    grid-column: 1/4
+  &__item
+    a, p
+      line-height: 25px
+      color: #fff
+      font-size: 14px
+      text-decoration: none
+      margin-bottom: 14px
+    p:last-child
+      line-height: 35px
+  &__copy
+    grid-column: 5/7
+  &__email
+    grid-column: 7/9
+  &__adress
+    grid-column: 9/12
+    p
+      line-height: 30px
+.slick-dotted.slick-slider
+  margin-bottom: 0
+#one
+  height: 100vh
+#two
+  background-color: #F8F8F8
+  height: auto
+  z-index: 15
+  position: relative
+
+//preloader
+.preloader
+  display: inline-block
+  position: relative
+  transform: scale(0)
+  svg
+    fill: #fff
+    width: 68px
+    height: 99px
+  &__wrp
+    position: fixed
+    width: 100vw
+    height: 100vh
+    left: 0
+    top: 0
+    right: 0
+    bottom: 0
+    z-index: 150
+    background-color: #016EC0
+    display: flex
+    justify-content: center
+    align-items: center
+//hamburger
+.hamburger
+  display: none
+  grid-column: 12/13
+  width: 50px
+  height: 50px
+  transition: .5s all ease-in-out
+  position: relative
+  border: 0
+  background-color: transparent
+  &:focus,&:active
+    outline: none
+    border: 0
+  &:after, &:before
+    position: absolute
+    content: ''
+    left: 50%
+    -webkit-transform: translateX(-50%)
+    -ms-transform: translateX(-50%)
+    transform: translateX(-50%)
+    background-color: #fff
+    width: 30px
+    height: 3px
+    -webkit-transition: .5s all ease-in-out
+    -o-transition: .5s all ease-in-out
+    transition: .5s all ease-in-out
+  &:after
+    bottom: 20px
+  &:before
+    top: 20px
+//mobile menu
+.menu
+  position: fixed
+  top: 0
+  right: -100%
+  background-color: #0D3F65
+  opacity: 0.95
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.08)
+  padding: 30px
+  min-height: 100vh
+  transition: all 1.5s cubic-bezier(0.23, 1, 0.32, 1)
+  box-sizing: border-box
+  flex-direction: column
+  justify-content: space-between
+  z-index: 120
+  display: none
+  &__social
+    margin-bottom: calc(100vh - 87vh)
+  &__top
+    align-items: center
+    justify-content: space-between
+  &__close
+    border: 0
+    background-color: transparent
+    display: block
+  .nav__wrapper
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    margin: 0 -30px
+    .nav__item
+      width: 100%
+      text-align: center
+      flex-wrap: wrap
+      &:after
+        content: none
+    .nav__link
+      color: #fff
+      line-height: 40px
+      display: block
+      margin: 0 auto
+      position: relative
+    .nav__item_sub .nav__link:before
+      content: ''
+      display: block
+      background-image: url("data:image/svg+xml,%3Csvg width='4' height='2' viewBox='0 0 4 2' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2 2L0 0H4L2 2Z' fill='white'/%3E%3C/svg%3E%0A")
+      background-repeat: no-repeat
+      width: 4px
+      height: 2px
+      position: absolute
+      right: -15px
+      top: 42%
+    .nav__item_sub.is-open .nav__link
+      color: #0B7CD3
+    .nav__item_sub.is-open .nav__link:before
+      background-image: url("data:image/svg+xml,%3Csvg width='4' height='3' viewBox='0 0 4 3' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2 0.5L4 2.5L0 2.5L2 0.5Z' fill='%230B7CD3'/%3E%3C/svg%3E%0A")
+
+    .sub__menu_mobile
+      background-color: #0B2F4A
+      width: 100%
+      display: none
+      padding: 20px 0
+      &.is-active
+        display: block
+      &_link
+        color: #fff
+        line-height: 30px
+        font-size: 15px
+        font-family: 'mont-regular', Serif
+        display: block
+
+  .sidebar__social
+    justify-content: center
+.menu-open
+  height: 100vh
+  overflow: hidden
+.menu-open .menu
+  right: 0
+.back
+  display: inline-flex
+  align-items: center
+  margin-bottom: 25px
+  text-decoration: none
+  &__txt
+    color: #5F5F5F
+    font-size: 16px
+    font-family: 'got-regular', serif
+    line-height: 50px
+    display: block
+    margin-left: 20px
+.breadcrumbs
+  grid-column: 5/13
+  margin-bottom: 25px
+  line-height: 50px
+  &__wr
+    display: flex
+  &__link
+    color: #0B7CD3
+    text-decoration: none
+    display: flex
+    align-items: center
+    &:hover
+      text-decoration: underline
+    &_active
+      color: #5F5F5F
+      cursor: default
+    &:after
+      content: ''
+      width: 5px
+      height: 7px
+      background-image: url("data:image/svg+xml,%3Csvg width='5' height='7' viewBox='0 0 5 7' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.34912 0.687988L3.86719 3.20605L1.34912 5.72412' stroke='%235F5F5F'/%3E%3C/svg%3E%0A")
+      background-repeat: no-repeat
+      display: block
+      margin: 0 15px
+
+.news
+  &__wr
+    display: flex
+    justify-content: space-between
+  &__last
+    width: 355px
+    max-width: 100%
+    margin-right: 80px
+    &-mobile-link
+      width: 100%
+      color: #262626
+      padding-bottom: 15px
+      border-bottom: 1px solid rgba(0,0,0,0.1)
+      margin-bottom: 30px
+      cursor: pointer
+  &__last-list
+    &__item
+      display: block
+      font-size: 16px
+      margin-bottom: 2em
+      font-family: 'mont-medium', serif
+      color: #5F5F5F
+      transition: .3s all ease-in
+      text-decoration: none
+      &:hover
+        color: #0B7CD3
+  &__list
+    width: 650px
+    max-width: 100%
+  &__list-year
+    display: flex
+    justify-content: space-between
+    align-items: baseline
+    margin-bottom: 35px
+    flex-wrap: wrap
+    &__item
+      color: #5F5F5F
+      font-size: 16px
+      font-family: 'mont-medium'
+      text-decoration: none
+      transition: .3s all ease-in-out
+      &:hover
+        color: #0B7CD3
+        font-size: 25px
+      &_active
+        color: #0B7CD3
+        font-size: 25px
+  &__list-month
+    display: flex
+    flex-wrap: wrap
+    margin-bottom: 70px
+    &__item
+      margin-right: 9px
+      margin-bottom: 10px
+      width: 13%
+      height: 30px
+      display: flex
+      align-items: center
+      justify-content: center
+      border-radius: 3px
+      border: 0
+      cursor: pointer
+      transition: .3s all ease-in-out
+      font-size: 14px
+      font-family: 'mont-medium', serif
+      &_white
+        background-color: #fff
+        color: #5F5F5F
+      &_grey
+        background-color: #FAFAFA
+        color: #CACACA
+      &_active, &:hover
+        background-color: #0B7CD3
+        color: #fff
+      &:nth-child(7), &:last-child
+        margin-right: 0
+  &__list-selects
+    margin-bottom: 40px
+    justify-content: space-between
+  &__list-select
+    width: 45%
+  &__item
+    background-color: #fff
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    padding: 25px 25px 30px 38px
+    box-sizing: border-box
+    margin-bottom: 20px
+    &_date
+      color: #5F5F5F
+      font-size: 14px
+      font-family: 'got-regular'
+      margin-bottom: 2.5em
+    &_name
+      font-size: 20px
+      color: #262626
+      font-family: 'mont-medium', serif
+      text-decoration: none
+      margin-bottom: 2em
+      transition: .3s all ease-in-out
+      svg
+        stroke: #1F1F1F
+        width: 22px
+        height: 12px
+        transition: .3s all ease-in-out
+        margin-right: 10px
+      &:hover
+        color: #0B7CD3
+        svg
+          stroke: #0B7CD3
+          width: 42px
+    &_intro
+      color: #1F1F1F
+      line-height: 25px
+      font-family: 'got-regular'
+.select2-container .select2-selection--single
+  height: 41px
+  padding-top: 7px
+  padding-left: 20px
+  box-sizing: border-box
+  -webkit-border-radius: 5px
+  -moz-border-radius: 5px
+  border-radius: 5px
+  border: 1px solid #E0E0E0
+.select2-container--default .select2-selection--single .select2-selection__arrow
+  top: 8px
+  right: 10px
+.select2-container--default .select2-selection--single .select2-selection__rendered, .select2-results__option
+  font-size: 14px
+  font-family: 'mont-regular', Serif
+  color: #000
+.select2-container--default .select2-results__option[aria-disabled=true]
+  background-color: #ccc
+  color: #000
+.news-inner
+  &__date
+    color: #5F5F5F
+    font-family: 'mont-medium', Serif
+    font-size: 14px
+    margin-bottom: 2.5em
+  &__content
+    margin-bottom: 102px
+  &__subttl
+    color: #000
+    font-size: 20px
+    margin-bottom: 30px
+    font-family: 'mont-medium', serif
+  &__footnote
+    position: absolute
+    top: 10%
+    max-width: 62.5%
+    background-color: #F8F8F8
+    padding: 25px 0 25px 50px
+    p
+      margin-bottom: 25px
+  &__design
+    position: relative
+    &_right
+      img
+        display: block
+        margin-left: auto
+      .news-inner__footnote
+          left: 5px
+    &_left
+      .news-inner__footnote
+        left: 30%
+  .mt-minus
+    margin-top: -25px
+
+.contacts
+  &__wr
+    display: flex
+    justify-content: space-between
+    position: relative
+  &__item
+    background-color: #fff
+    display: flex
+    flex-direction: column
+    justify-content: center
+    padding-left: 50px
+    box-sizing: border-box
+    height: 644px
+    width: 49%
+    border-radius: 3px
+    transition: .3s all ease-in-out
+    &:hover
+      box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.05)
+  &__wr.is-active
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.05)
+    .contacts__item
+      width: 51%
+      box-shadow: none
+  &__name
+    font-family: 'mont-medium', Serif
+    font-size: 20px
+    color: #1D2022
+  &__info
+    margin: 25px 0 45px
+    line-height: 22px
+    max-width: 50%
+    &_item
+      margin-bottom: 15px
+      font-family: 'got-regular'
+      span
+        font-family: 'got-medium'
+        color: #5F5F5F
+      a
+        font-family: 'got-regular'
+  &__link
+    color: #5F5F5F
+    text-decoration: underline
+    cursor: pointer
+    &:first-child
+      margin-right: 30px
+  &__close
+    border: 0
+    position: absolute
+    right: 0
+    background-color: #0B7CD3
+    padding: 15px
+.map
+  position: absolute
+  top: -100%
+  opacity: 0
+  transition: all 1.5s cubic-bezier(0.23, 1, 0.32, 1)
+  z-index: -1
+  width: 49%
+  box-sizing: border-box
+  &_right
+    right: 0
+  &_left
+    left: 0
+  img
+    display: block
+    height: 100%
+    width: 100%
+  &.is-active
+    z-index: 10
+    height: 100%
+    opacity: 1
+    top: 0
+    &_right
+      right: 0
+    &_left
+      left: 0
+.feedback
+  background-color: #fff
+  grid-column: 5/13
+  padding-top: 60px
+  padding-bottom: 70px
+  box-sizing: border-box
+  position: relative
+  margin-top: 100px
+  &:before, &:after
+    content: ''
+    background-color: #fff
+    height: 100%
+    width: 90px
+    position: absolute
+    top: 0
+  &:before
+    left: -90px
+  &:after
+    right: -90px
+.form
+  &__wr
+    justify-content: space-between
+  &__item
+    border: 1px solid #E0E0E0
+    -webkit-border-radius: 5px
+    -moz-border-radius: 5px
+    border-radius: 5px
+    height: 41px
+    padding-left: 20px
+    box-sizing: border-box
+    color: #000
+    font-size: 14px
+    font-family: 'mont-regular', serif
+    &::placeholder
+      color: #000
+      font-size: 14px
+      font-family: 'mont-regular', serif
+    &:active, &:focus
+      outline: none
+      border: 1px solid #0B7CD3
+  &__input
+    margin-bottom: 30px
+    width: 32%
+    max-width: 100%
+  &__textarea
+    width: 100%
+    height: 75px
+    margin-bottom: 50px
+    padding-top: 15px
+  &__submit
+    background-color: #0B7CD3
+    color: #fff
+    -webkit-border-radius: 3px
+    -moz-border-radius: 3px
+    border-radius: 3px
+    width: 200px
+    height: 50px
+    margin: 0 auto
+    font-size: 14px
+    font-family: 'mont-medium', Serif
+    display: flex
+    align-items: center
+    justify-content: center
+    border: 0
+    cursor: pointer
+    &:active, &:focus
+      outline: none
+      border: 0
+
+.vacancies
+  &__map
+    margin-bottom: 75px
+    position: relative
+    img
+      width: 100%
+      height: auto
+  &__wr
+    display: none
+    &.is-active
+      display: block
+  &__nav
+    display: flex
+    flex-wrap: wrap
+  &__btn
+    margin-right: 9px
+    margin-bottom: 10px
+    height: 30px
+    display: flex
+    align-items: center
+    justify-content: center
+    border-radius: 3px
+    border: 0
+    cursor: pointer
+    transition: .3s all ease-in-out
+    font-size: 14px
+    font-family: 'mont-medium', serif
+    background-color: #fff
+    color: #5F5F5F
+    &:hover
+      color: #fff
+      background-color: #0B7CD3
+.mark
+  width: 50px
+  height: 35px
+  position: absolute
+  cursor: pointer
+  &__icon
+    z-index: 1
+    position: relative
+  &__count
+    font-family: 'got-regular'
+    font-size: 12px
+    color: #000
+    background-color: #fff
+    border: 1px solid #11BBF9
+    box-sizing: border-box
+    border-radius: 20px
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 32px
+    height: 18px
+    position: absolute
+    top: -5px
+    right: 4px
+    z-index: -1
+.vacancies-in
+  &__btn
+    background-color: #0B7CD3
+    color: #fff
+    -webkit-border-radius: 3px
+    -moz-border-radius: 3px
+    border-radius: 3px
+    width: 200px
+    height: 50px
+    font-size: 14px
+    font-family: 'mont-medium', Serif
+    display: flex
+    align-items: center
+    justify-content: center
+    border: 0
+    text-decoration: none
+    &:active, &:focus
+      outline: none
+      border: 0
+
+//content scroll
+.mCSB_inside > .mCSB_container
+  margin-right: 50px
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar
+  height: auto
+.mCSB_scrollTools .mCSB_draggerRail
+  width: 3px
+  background-color: #0B7CD3
+
+.js-content-scroll.is-scrolling
+  padding-top: 92px
