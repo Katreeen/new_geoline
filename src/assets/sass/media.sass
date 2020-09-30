@@ -19,13 +19,32 @@
     width: 980px
   .sidebar, .sticky-wrapper
     width: 397px
-    padding-right: 70px
+    // padding-right: 70px
   .sidebar__contacts
     width: 350px
   .news-inner .mt-minus
     margin-top: 0
   .contacts__info
     max-width: 85%
+  .content
+    padding-left: 50px;
+  .case
+    padding-left: 0
+    padding-right: 0
+    margin-right: 0
+    margin-left: 0
+    &:before, &:after
+      content: ''
+      background-color: #fff
+      height: 100%
+      width: 90px
+      position: absolute
+      top: 0
+    &:before
+      left: -90px
+    &:after
+      right: -90px
+
 @media (max-width: 1370.98px)
   .top-phone
     grid-column: 10/13
@@ -71,7 +90,7 @@
     width: 14%
   .news-inner__design
     margin-bottom: 30px
-
+  
 @media (max-width: 1280.98px)
   .page-header
     .container
@@ -245,6 +264,9 @@
     width: 100%
   .news-inner .mt-minus
     margin-top: 20px
+  .content
+    padding-left: 0;
+    padding-right: 0
 @media (max-width: 768.98px)
   body
     overflow-x: hidden
@@ -501,7 +523,6 @@
     margin-right: 15px
   .footer__copy_wr
     max-width: 70%
-
 
 
 
