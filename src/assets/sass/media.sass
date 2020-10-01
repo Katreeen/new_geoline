@@ -1,49 +1,40 @@
 @media (min-width: 2000.98px)
   .slider__counter
     right: 15%
+@media (max-width: 1800.98px)
+  .case:before, .case:after
+    display: none
+  .case
+    padding-left: 80px
+    padding-right: 80px
 @media (max-width: 1600.98px)
   .container
-    grid-column-gap: 0
-    padding: 0 100px
     box-sizing: border-box
   .page-header
     .nav
       grid-column: 5/13
     .container
-      width: calc(100% - 497px)
+      grid-column: 5/13;
   .footer__adress
     grid-column: 10/13
   .footer__email
     grid-column: 8/10
   .slider__dots
     width: 980px
-  .sidebar, .sticky-wrapper
-    width: 397px
-    // padding-right: 70px
+  .sidebar
+    padding-left: 20px
+    padding-right: 20px
+  .sidebar:before
+    width: 30px
+    left: -30px
   .sidebar__contacts
     width: 350px
   .news-inner .mt-minus
     margin-top: 0
   .contacts__info
     max-width: 85%
-  .content
-    padding-left: 50px;
-  .case
-    padding-left: 0
-    padding-right: 0
+  .content__flex
     margin-right: 0
-    margin-left: 0
-    &:before, &:after
-      content: ''
-      background-color: #fff
-      height: 100%
-      width: 90px
-      position: absolute
-      top: 0
-    &:before
-      left: -90px
-    &:after
-      right: -90px
 
 @media (max-width: 1370.98px)
   .top-phone
@@ -350,6 +341,7 @@
     padding: 0
   .section-in_main .sidebar
     padding: 80px 0 0 0
+  
   .back
     margin-top: 160px
   .content

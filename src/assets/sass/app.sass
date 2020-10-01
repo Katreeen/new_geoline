@@ -110,12 +110,12 @@ ul
   position: relative
   display: grid
   grid-template-columns: repeat(12, 1fr)
-  grid-column-gap: 40px
-  max-width: 1690px
+  grid-column-gap: 0
+  max-width: 1660px
   //max-width: 100%
   //width: 100%
   margin: 0 auto
-  padding: 0 15px
+  padding: 0 30px
 
 .d-flex
   display: flex
@@ -129,6 +129,7 @@ img
   max-width: 100%
 .section-in
   padding-bottom: 100px
+
 //header
 .header
   position: fixed
@@ -157,7 +158,7 @@ img
   //.logo_blue
   //  display: block
   .container
-    width: calc(100% - 511px)
+    width: calc(100% - 526px)
     background-color: #F8F8F8
     height: 100%
     margin: 0 0 0 auto
@@ -499,15 +500,14 @@ img
     position: static
 //sidebar
 .sticky-wrapper
-  width: 496px
+  //width: 496px
   grid-column: 1/5
   min-height: 100vh
   position: relative
   z-index: 8
 .sidebar
   background-color: #fff
-  max-width: 100%
-  // max-width: 497px
+  max-width: 496px;
   padding-right: 41px
   position: relative
   top: 0
@@ -523,6 +523,8 @@ img
     position: absolute
     z-index: 10
     top: 0
+  .title
+    margin-bottom: 36px
   .logo
     margin-bottom: 55px
     text-decoration: none
@@ -534,21 +536,24 @@ img
     color: #252525
     opacity: 0
   &__nav
+    padding-bottom: 43px
     &_wr
       &_top
-        margin-bottom: 50px
+        margin-bottom: 80px
       &_bottom
         margin-bottom: 30px
     &_item
-      margin-bottom: 20px
+      margin-bottom: 30px
       &:last-child
         margin-bottom: 0
     &_link
-      font-family: 'got-regular', serif
+      //font-family: 'got-regular', serif
+      font-family: 'Arial';
       color: #5F5F5F
       font-size: 18px
       text-decoration: none
       transition: .5s all ease-in-out
+      line-height: 1.3
       &:hover
         color: #0B7CD3
   &__contacts
@@ -583,16 +588,18 @@ img
     opacity: 1
 
 //content
+.content_wrap
+  grid-column: 5/end
 .content
-  grid-column: 5/18
   padding-top: 160px
   box-sizing: border-box
-  padding-right: 47px
-  padding-left: 64px
+  padding-right: 44px
+  padding-left: 30px
 
   .accordeon__wr
     margin-bottom: 80px
- 
+  
+
   &__in
     margin-top: 48px
     margin-bottom: 48px
@@ -601,17 +608,25 @@ img
       font-size: 25px
       font-family: 'mont-medium', serif
       color: #252525
-      margin-bottom: 20px
+      margin-bottom: 26px
     &_design
       background-repeat: no-repeat
+      padding-bottom: 40px
       &_right
         background-position: right top
+        p
+          margin-bottom: 23px
+          color: #252525
+      &_right.myClass
+        padding-top: 47px
       &_left
         background-position: left top
         .title
-          text-align: center
-          margin-right: 80px
-          padding-top: 20px
+          margin-left: 30%
+          padding-top: 40px
+  .js-ui-accordion_open
+    margin-top: 32px
+    margin-bottom: 28px
   &__flex
     justify-content: flex-end
     margin-right: 80px
@@ -620,11 +635,10 @@ img
     position: relative
     color: #262626
     padding-left: 50px
-    color: #262626
     font-family: 'got-regular'
     font-size: 14px
-    line-height: 20px
-    margin-bottom: 1.5em
+    line-height: 30px
+    
     &:before
       content: ''
       display: block
@@ -664,35 +678,35 @@ img
       &:before
         background-position: 0px -9px
 .case
-  padding: 90px
+  
+  padding: 90px 0
   box-sizing: border-box
   background-color: #fff
   position: relative
-  grid-column: 5/18
-  margin-left: -4%
-  // &:before, &:after
-  //   content: ''
-  //   background-color: #fff
-  //   height: 100%
-  //   width: 90px
-  //   position: absolute
-  //   top: 0
-  // &:before
-  //   left: -90px
-  // &:after
-  //   right: -90px
+  //grid-column: 5/end
+  
+  &:before, &:after
+    content: ''
+    background-color: #fff
+    height: 100%
+    width: 6%
+    position: absolute
+    top: 0
+  &:before
+    left: -6%
+  &:after
+    right: -6%
   &__wrapper
     display: flex
     justify-content: space-between
   &__item
     box-sizing: border-box
-    //width: 340px
-    padding-right: 30px
-    //flex: 0 0 340px
+    padding-right: 40px
     max-width: 405px
     margin-bottom: 50px
     color: #000
     text-decoration: none
+    min-width: 300px
     &:last-child
       margin-right: 0
   .slick-slide
@@ -700,21 +714,22 @@ img
   &__ttl
     font-family: 'mont-medium', Serif
     font-size: 25px
-    text-transform: uppercase
     margin-bottom: 25px
+    line-height: 35px
   &__list
     font-family: 'got-regular', Serif
     font-size: 14px
     margin-bottom: 40px
     span
-      margin-bottom: 20px
+      margin-bottom: 14px
       display: block
-      b
-        font-family: 'got-medium', Serif
+      color: #262626;
+
   &__link
     font-size: 14px
     font-family: 'got-regular', Serif
     color: #262626
+    text-decoration: underline
     &:hover
       color: #0B7CD3
       text-decoration: underline
@@ -725,6 +740,11 @@ img
     background-color: #0B7CD3
   .swiper-container-horizontal>.swiper-scrollbar
     left: 0
+.main-case
+  margin-top: 100px
+  .title
+    max-width: 721px
+    line-height: 40px;
 .cases
   padding-top: 160px
   &__wr
