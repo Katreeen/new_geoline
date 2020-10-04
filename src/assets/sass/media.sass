@@ -39,12 +39,15 @@
     right: 15%
 
 @media (max-width: 1800.98px)
-  // .case:before, .case:after
-  //   display: none
-  // .case
-  //   padding-left: 80px
-  //   padding-right: 80px
+  .header
+    .first__head
+      padding-left: 40px
+      padding-right: 40px
 @media (max-width: 1600.98px)
+  .header
+    .first__head
+      padding-left: 16px
+      padding-right: 16px
   .page-header
     .container
       width: 100%
@@ -407,6 +410,7 @@
     display: block
   .top-phone
     grid-column: 6/10
+    text-align: center
   .hamburger
     display: block
   .menu
@@ -533,14 +537,22 @@
     grid-column: 1/end
     width: 100%
 
+
     
 @media (max-width: 640.98px)
+  // .top-phone
+  //   grid-column: 6/12
+  //   text-align: center
   .footer 
     .container 
       grid-column-gap: 0
-    .top-phone
-      grid-column: 5/end
+  .top-phone
+    grid-column: 6/12
+    margin-right: 5px
 
+@media (max-width: 540.98px)
+  .top-phone, .page-header .top-phone
+    display: none
 @media (max-width: 480.98px)
   .news__list-year
     flex-wrap: wrap
