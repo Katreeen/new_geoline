@@ -4,8 +4,8 @@ import 'slick-carousel/slick/slick.min';
 import 'owl.carousel/dist/owl.carousel.min';
 import '@fancyapps/fancybox'
 import 'malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min'
-import 'jquery-sticky/jquery.sticky'
-// import './js/swiper'
+//import 'jquery-sticky/jquery.sticky'
+ import './js/swiper'
 import 'select2/dist/js/select2.min'
 import './js/app'
 

@@ -116,7 +116,12 @@ $(() => {
     function checkWidth() {
         let windowWidth = $('body').innerWidth()
         if (windowWidth > 769) {
-                $("#aside1").sticky({topSpacing: 0, bottomSpacing: 244});
+                //$("#aside1").sticky({topSpacing: 0, bottomSpacing: 244});
+                console.log('ggg');
+                // $("#aside1").stick_in_parent({
+                //     offset_top: 0,
+                //     spacer: false
+                // });
 
             //swiper
             let swiper = new Swiper('.swiper-container', {

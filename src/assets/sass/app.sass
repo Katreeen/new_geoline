@@ -73,6 +73,8 @@ body
   font-size: 16px
   font-family: 'mont-medium', serif
   background-color: #F8F8F8
+  max-width: 2600px
+  margin: auto
   overflow-x: hidden
   &::-webkit-scrollbar
     width: 5px
@@ -129,6 +131,9 @@ img
   max-width: 100%
 .section-in
   padding-bottom: 100px
+  .container
+    padding: 0
+    max-width: 1720px
 
 //header
 .header
@@ -157,12 +162,25 @@ img
   //  display: none
   //.logo_blue
   //  display: block
+  // .container
+  //   width: calc(100% - 526px)
+  //   background-color: #F8F8F8
+  //   height: 100%
+  //   margin: 0 0 0 auto
+  //   padding: 0
   .container
-    width: calc(100% - 526px)
-    background-color: #F8F8F8
+    width: 100%
     height: 100%
     margin: 0 0 0 auto
     padding: 0
+    background: transparent
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    max-width: 1720px;
+    .first__head
+      background: #F8F8F8
+      grid-column: 5/end;
+      margin-left: -56px;
   .top-phone
     display: none
   .nav
@@ -507,13 +525,15 @@ img
   z-index: 8
 .sidebar
   background-color: #fff
-  max-width: 496px;
+  //max-width: 496px;
   padding-right: 41px
-  position: relative
+  position: sticky
   top: 0
   padding-bottom: 60px
   box-sizing: border-box
   min-height: 100vh
+  margin-right: 56px
+  padding-left: 41px
   &:before
     content: ''
     height: 100%
@@ -679,23 +699,35 @@ img
         background-position: 0px -9px
 .case
   
-  padding: 90px 0
+  padding: 90px 0 90px 114px
   box-sizing: border-box
   background-color: #fff
   position: relative
+  width: calc(100% + 57px);
+  left: -57px;
   //grid-column: 5/end
+  // &:after
+  //   content: ''
+  //   height: 100%
+  //   width: 100px
+  //   right: -100px
+  //   background-color: #fff
+  //   position: absolute
+  //   z-index: 10
+  //   top: 0
+
   
-  &:before, &:after
-    content: ''
-    background-color: #fff
-    height: 100%
-    width: 6%
-    position: absolute
-    top: 0
-  &:before
-    left: -6%
-  &:after
-    right: -6%
+  // &:before, &:after
+  //   content: ''
+  //   background-color: #fff
+  //   height: 100%
+  //   width: 6%
+  //   position: absolute
+  //   top: 0
+  // &:before
+  //   left: -6%
+  // &:after
+  //   right: -6%
   &__wrapper
     display: flex
     justify-content: space-between
@@ -858,6 +890,8 @@ img
   padding: 30px 0
   position: relative
   z-index: 30
+  .container
+    grid-column-gap: 40px
   &__logo
     grid-column: 1/4
   &__item
@@ -866,15 +900,15 @@ img
       color: #fff
       font-size: 14px
       text-decoration: none
-      margin-bottom: 14px
+      margin-bottom: 0
     p:last-child
-      line-height: 35px
+      line-height: 25px
   &__copy
-    grid-column: 5/7
+    grid-column: 5/8
   &__email
-    grid-column: 7/9
+    grid-column: 8/10
   &__adress
-    grid-column: 9/12
+    grid-column: 10/end
     p
       line-height: 30px
 .slick-dotted.slick-slider
@@ -1035,11 +1069,15 @@ img
   line-height: 50px
   &__wr
     display: flex
+    flex-wrap: wrap
+  &__item
+    line-height: 1.2
   &__link
     color: #0B7CD3
     text-decoration: none
     display: flex
     align-items: center
+    line-height: 1.2
     &:hover
       text-decoration: underline
     &_active
@@ -1119,6 +1157,7 @@ img
       transition: .3s all ease-in-out
       font-size: 14px
       font-family: 'mont-medium', serif
+      min-width: 80px
       &_white
         background-color: #fff
         color: #5F5F5F
@@ -1190,13 +1229,16 @@ img
   background-color: #ccc
   color: #000
 .news-inner
+  .title
+    margin-bottom: 14px
+  p
+    margin-bottom: 28px
   &__date
     color: #5F5F5F
     font-family: 'mont-medium', Serif
     font-size: 14px
     margin-bottom: 2.5em
-  &__content
-    margin-bottom: 102px
+  
   &__subttl
     color: #000
     font-size: 20px
@@ -1217,10 +1259,13 @@ img
         display: block
         margin-left: auto
       .news-inner__footnote
-          left: 5px
+        padding: 36px 75px 36px 0
+        left: 5px
     &_left
+      margin-top: 43px
       .news-inner__footnote
         left: 30%
+        padding: 34px 48px
   .mt-minus
     margin-top: -25px
 
@@ -1302,23 +1347,25 @@ img
       left: 0
 .feedback
   background-color: #fff
-  grid-column: 5/13
-  padding-top: 60px
-  padding-bottom: 70px
+ 
+  padding: 60px 80px
+  //padding-bottom: 70px
   box-sizing: border-box
-  position: relative
   margin-top: 100px
-  &:before, &:after
-    content: ''
-    background-color: #fff
-    height: 100%
-    width: 90px
-    position: absolute
-    top: 0
-  &:before
-    left: -90px
-  &:after
-    right: -90px
+  position: relative
+  left: -57px
+  width: calc(100% + 57px)
+  // &:before, &:after
+  //   content: ''
+  //   background-color: #fff
+  //   height: 100%
+  //   width: 90px
+  //   position: absolute
+  //   top: 0
+  // &:before
+  //   left: -90px
+  // &:after
+  //   right: -90px
 .form
   &__wr
     justify-content: space-between

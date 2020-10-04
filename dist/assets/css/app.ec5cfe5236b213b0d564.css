@@ -307,7 +307,7 @@ template {
 @font-face {
   font-family: 'mont-light';
   src: url(../fonts/Montserrat-Light.eot);
-  src: url(../fonts/Montserrat-Light.eot?#iefix) format("embedded-opentype"), url(../fonts/Montserrat-Light.woff2) format("woff2"), url(../fonts/Montserrat-Light.woff) format("woff"), url(../fonts/Montserrat-Light.ttf) format("truetype"), url(/home/tech-ekaterina/projects/geoline-master/src/assets/fonts/Montserrat-Light.svg) format("svg");
+  src: url(../fonts/Montserrat-Light.eot?#iefix) format("embedded-opentype"), url(../fonts/Montserrat-Light.woff2) format("woff2"), url(../fonts/Montserrat-Light.woff) format("woff"), url(../fonts/Montserrat-Light.ttf) format("truetype"), url(D:\Work\in_work\new_geoline\src\assets\fonts\Montserrat-Light.svg) format("svg");
   font-weight: 300;
   font-style: normal;
   font-display: swap; }
@@ -315,7 +315,7 @@ template {
 @font-face {
   font-family: 'mont-medium';
   src: url(../fonts/Montserrat-Medium.eot);
-  src: url(../fonts/Montserrat-Medium.eot?#iefix) format("embedded-opentype"), url(../fonts/Montserrat-Medium.woff2) format("woff2"), url(../fonts/Montserrat-Medium.woff) format("woff"), url(../fonts/Montserrat-Medium.ttf) format("truetype"), url(/home/tech-ekaterina/projects/geoline-master/src/assets/fonts/Montserrat-Medium.svg) format("svg");
+  src: url(../fonts/Montserrat-Medium.eot?#iefix) format("embedded-opentype"), url(../fonts/Montserrat-Medium.woff2) format("woff2"), url(../fonts/Montserrat-Medium.woff) format("woff"), url(../fonts/Montserrat-Medium.ttf) format("truetype"), url(D:\Work\in_work\new_geoline\src\assets\fonts\Montserrat-Medium.svg) format("svg");
   font-weight: 500;
   font-style: normal;
   font-display: swap; }
@@ -323,7 +323,7 @@ template {
 @font-face {
   font-family: 'mont-regular';
   src: url(../fonts/Montserrat-Regular.eot);
-  src: url(../fonts/Montserrat-Regular.eot?#iefix) format("embedded-opentype"), url(../fonts/Montserrat-Regular.woff2) format("woff2"), url(../fonts/Montserrat-Regular.woff) format("woff"), url(../fonts/Montserrat-Regular.ttf) format("truetype"), url(/home/tech-ekaterina/projects/geoline-master/src/assets/fonts/Montserrat-Regular.svg) format("svg");
+  src: url(../fonts/Montserrat-Regular.eot?#iefix) format("embedded-opentype"), url(../fonts/Montserrat-Regular.woff2) format("woff2"), url(../fonts/Montserrat-Regular.woff) format("woff"), url(../fonts/Montserrat-Regular.ttf) format("truetype"), url(D:\Work\in_work\new_geoline\src\assets\fonts\Montserrat-Regular.svg) format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
@@ -331,7 +331,7 @@ template {
 @font-face {
   font-family: 'mont-bold';
   src: url(../fonts/Montserrat-Bold.eot);
-  src: url(../fonts/Montserrat-Bold.eot?#iefix) format("embedded-opentype"), url(../fonts/Montserrat-Bold.woff2) format("woff2"), url(../fonts/Montserrat-Bold.woff) format("woff"), url(../fonts/Montserrat-Bold.ttf) format("truetype"), url(/home/tech-ekaterina/projects/geoline-master/src/assets/fonts/Montserrat-Bold.svg) format("svg");
+  src: url(../fonts/Montserrat-Bold.eot?#iefix) format("embedded-opentype"), url(../fonts/Montserrat-Bold.woff2) format("woff2"), url(../fonts/Montserrat-Bold.woff) format("woff"), url(../fonts/Montserrat-Bold.ttf) format("truetype"), url(D:\Work\in_work\new_geoline\src\assets\fonts\Montserrat-Bold.svg) format("svg");
   font-weight: bold;
   font-style: normal;
   font-display: swap; }
@@ -339,7 +339,7 @@ template {
 @font-face {
   font-family: 'gil-bold';
   src: url(../fonts/Gilroy-Bold.eot);
-  src: url(../fonts/Gilroy-Bold.eot?#iefix) format("embedded-opentype"), url(../fonts/Gilroy-Bold.woff2) format("woff2"), url(../fonts/Gilroy-Bold.woff) format("woff"), url(../fonts/Gilroy-Bold.ttf) format("truetype"), url(/home/tech-ekaterina/projects/geoline-master/src/assets/fonts/Gilroy-Bold.svg) format("svg");
+  src: url(../fonts/Gilroy-Bold.eot?#iefix) format("embedded-opentype"), url(../fonts/Gilroy-Bold.woff2) format("woff2"), url(../fonts/Gilroy-Bold.woff) format("woff"), url(../fonts/Gilroy-Bold.ttf) format("truetype"), url(D:\Work\in_work\new_geoline\src\assets\fonts\Gilroy-Bold.svg) format("svg");
   font-weight: bold;
   font-style: normal;
   font-display: swap; }
@@ -347,7 +347,7 @@ template {
 @font-face {
   font-family: 'gil-extrabold';
   src: url(../fonts/Gilroy-ExtraBold.eot);
-  src: url(../fonts/Gilroy-ExtraBold.eot?#iefix) format("embedded-opentype"), url(../fonts/Gilroy-ExtraBold.woff2) format("woff2"), url(../fonts/Gilroy-ExtraBold.woff) format("woff"), url(../fonts/Gilroy-ExtraBold.ttf) format("truetype"), url(/home/tech-ekaterina/projects/geoline-master/src/assets/fonts/Gilroy-ExtraBold.svg) format("svg");
+  src: url(../fonts/Gilroy-ExtraBold.eot?#iefix) format("embedded-opentype"), url(../fonts/Gilroy-ExtraBold.woff2) format("woff2"), url(../fonts/Gilroy-ExtraBold.woff) format("woff"), url(../fonts/Gilroy-ExtraBold.ttf) format("truetype"), url(D:\Work\in_work\new_geoline\src\assets\fonts\Gilroy-ExtraBold.svg) format("svg");
   font-weight: 800;
   font-style: normal;
   font-display: swap; }
@@ -355,7 +355,7 @@ template {
 @font-face {
   font-family: 'got-bold';
   src: url(../fonts/GothamPro-Bold.eot);
-  src: url(../fonts/GothamPro-Bold.eot?#iefix) format("embedded-opentype"), url(../fonts/GothamPro-Bold.woff2) format("woff2"), url(../fonts/GothamPro-Bold.woff) format("woff"), url(../fonts/GothamPro-Bold.ttf) format("truetype"), url(/home/tech-ekaterina/projects/geoline-master/src/assets/fonts/GothamPro-Bold.svg) format("svg");
+  src: url(../fonts/GothamPro-Bold.eot?#iefix) format("embedded-opentype"), url(../fonts/GothamPro-Bold.woff2) format("woff2"), url(../fonts/GothamPro-Bold.woff) format("woff"), url(../fonts/GothamPro-Bold.ttf) format("truetype"), url(D:\Work\in_work\new_geoline\src\assets\fonts\GothamPro-Bold.svg) format("svg");
   font-weight: bold;
   font-style: normal;
   font-display: swap; }
@@ -363,7 +363,7 @@ template {
 @font-face {
   font-family: 'got-regular';
   src: url(../fonts/GothamPro.eot);
-  src: url(../fonts/GothamPro.eot?#iefix) format("embedded-opentype"), url(../fonts/GothamPro.woff2) format("woff2"), url(../fonts/GothamPro.woff) format("woff"), url(../fonts/GothamPro.ttf) format("truetype"), url(/home/tech-ekaterina/projects/geoline-master/src/assets/fonts/GothamPro.svg) format("svg");
+  src: url(../fonts/GothamPro.eot?#iefix) format("embedded-opentype"), url(../fonts/GothamPro.woff2) format("woff2"), url(../fonts/GothamPro.woff) format("woff"), url(../fonts/GothamPro.ttf) format("truetype"), url(D:\Work\in_work\new_geoline\src\assets\fonts\GothamPro.svg) format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
@@ -371,7 +371,7 @@ template {
 @font-face {
   font-family: 'got-medium';
   src: url(../fonts/GothamPro-Medium.eot);
-  src: url(../fonts/GothamPro-Medium.eot?#iefix) format("embedded-opentype"), url(../fonts/GothamPro-Medium.woff2) format("woff2"), url(../fonts/GothamPro-Medium.woff) format("woff"), url(../fonts/GothamPro-Medium.ttf) format("truetype"), url(/home/tech-ekaterina/projects/geoline-master/src/assets/fonts/GothamPro-Medium.svg) format("svg");
+  src: url(../fonts/GothamPro-Medium.eot?#iefix) format("embedded-opentype"), url(../fonts/GothamPro-Medium.woff2) format("woff2"), url(../fonts/GothamPro-Medium.woff) format("woff"), url(../fonts/GothamPro-Medium.ttf) format("truetype"), url(D:\Work\in_work\new_geoline\src\assets\fonts\GothamPro-Medium.svg) format("svg");
   font-weight: 500;
   font-style: normal;
   font-display: swap; }
@@ -379,7 +379,7 @@ template {
 @font-face {
   font-family: 'HelveticaNeueCyr';
   src: url(../fonts/HelveticaNeueCyr-Bold.eot);
-  src: url(../fonts/HelveticaNeueCyr-Bold.eot?#iefix) format("embedded-opentype"), url(../fonts/HelveticaNeueCyr-Bold.woff2) format("woff2"), url(../fonts/HelveticaNeueCyr-Bold.woff) format("woff"), url(../fonts/HelveticaNeueCyr-Bold.ttf) format("truetype"), url(/home/tech-ekaterina/projects/geoline-master/src/assets/fonts/HelveticaNeueCyr-Bold.svg) format("svg");
+  src: url(../fonts/HelveticaNeueCyr-Bold.eot?#iefix) format("embedded-opentype"), url(../fonts/HelveticaNeueCyr-Bold.woff2) format("woff2"), url(../fonts/HelveticaNeueCyr-Bold.woff) format("woff"), url(../fonts/HelveticaNeueCyr-Bold.ttf) format("truetype"), url(D:\Work\in_work\new_geoline\src\assets\fonts\HelveticaNeueCyr-Bold.svg) format("svg");
   font-weight: bold;
   font-style: normal;
   font-display: swap; }
@@ -387,7 +387,7 @@ template {
 @font-face {
   font-family: 'Arial';
   src: url(../fonts/ArialMT.eot);
-  src: url(../fonts/ArialMT.eot?#iefix) format("embedded-opentype"), url(../fonts/ArialMT.woff2) format("woff2"), url(../fonts/ArialMT.woff) format("woff"), url(../fonts/ArialMT.ttf) format("truetype"), url(/home/tech-ekaterina/projects/geoline-master/src/assets/fonts/ArialMT.svg) format("svg");
+  src: url(../fonts/ArialMT.eot?#iefix) format("embedded-opentype"), url(../fonts/ArialMT.woff2) format("woff2"), url(../fonts/ArialMT.woff) format("woff"), url(../fonts/ArialMT.ttf) format("truetype"), url(D:\Work\in_work\new_geoline\src\assets\fonts\ArialMT.svg) format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
@@ -425,6 +425,8 @@ body {
   font-size: 16px;
   font-family: 'mont-medium', serif;
   background-color: #F8F8F8;
+  max-width: 2600px;
+  margin: auto;
   overflow-x: hidden; }
   body::-webkit-scrollbar {
     width: 5px; }
@@ -489,6 +491,9 @@ img {
 
 .section-in {
   padding-bottom: 100px; }
+  .section-in .container {
+    padding: 0;
+    max-width: 1720px; }
 
 .header {
   position: fixed;
@@ -513,11 +518,18 @@ img {
   .page-header .logo {
     display: none; }
   .page-header .container {
-    width: calc(100% - 526px);
-    background-color: #F8F8F8;
+    width: 100%;
     height: 100%;
     margin: 0 0 0 auto;
-    padding: 0; }
+    padding: 0;
+    background: transparent;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    max-width: 1720px; }
+    .page-header .container .first__head {
+      background: #F8F8F8;
+      grid-column: 5/end;
+      margin-left: -56px; }
   .page-header .top-phone {
     display: none; }
   .page-header .nav {
@@ -862,13 +874,15 @@ img {
 
 .sidebar {
   background-color: #fff;
-  max-width: 496px;
   padding-right: 41px;
-  position: relative;
+  position: -webkit-sticky;
+  position: sticky;
   top: 0;
   padding-bottom: 60px;
   box-sizing: border-box;
-  min-height: 100vh; }
+  min-height: 100vh;
+  margin-right: 56px;
+  padding-left: 41px; }
   .sidebar:before {
     content: '';
     height: 100%;
@@ -1026,21 +1040,12 @@ img {
       background-position: 0px -9px; }
 
 .case {
-  padding: 90px 0;
+  padding: 90px 0 90px 114px;
   box-sizing: border-box;
   background-color: #fff;
-  position: relative; }
-  .case:before, .case:after {
-    content: '';
-    background-color: #fff;
-    height: 100%;
-    width: 6%;
-    position: absolute;
-    top: 0; }
-  .case:before {
-    left: -6%; }
-  .case:after {
-    right: -6%; }
+  position: relative;
+  width: calc(100% + 57px);
+  left: -57px; }
   .case__wrapper {
     display: flex;
     justify-content: space-between; }
@@ -1213,6 +1218,8 @@ img {
   padding: 30px 0;
   position: relative;
   z-index: 30; }
+  .footer .container {
+    grid-column-gap: 40px; }
   .footer__logo {
     grid-column: 1/4; }
   .footer__item a, .footer__item p {
@@ -1220,15 +1227,15 @@ img {
     color: #fff;
     font-size: 14px;
     text-decoration: none;
-    margin-bottom: 14px; }
+    margin-bottom: 0; }
   .footer__item p:last-child {
-    line-height: 35px; }
+    line-height: 25px; }
   .footer__copy {
-    grid-column: 5/7; }
+    grid-column: 5/8; }
   .footer__email {
-    grid-column: 7/9; }
+    grid-column: 8/10; }
   .footer__adress {
-    grid-column: 9/12; }
+    grid-column: 10/end; }
     .footer__adress p {
       line-height: 30px; }
 
@@ -1388,12 +1395,16 @@ img {
   margin-bottom: 25px;
   line-height: 50px; }
   .breadcrumbs__wr {
-    display: flex; }
+    display: flex;
+    flex-wrap: wrap; }
+  .breadcrumbs__item {
+    line-height: 1.2; }
   .breadcrumbs__link {
     color: #0B7CD3;
     text-decoration: none;
     display: flex;
-    align-items: center; }
+    align-items: center;
+    line-height: 1.2; }
     .breadcrumbs__link:hover {
       text-decoration: underline; }
     .breadcrumbs__link_active {
@@ -1475,7 +1486,8 @@ img {
     cursor: pointer;
     transition: .3s all ease-in-out;
     font-size: 14px;
-    font-family: 'mont-medium', serif; }
+    font-family: 'mont-medium', serif;
+    min-width: 80px; }
     .news__list-month__item_white {
       background-color: #fff;
       color: #5F5F5F; }
@@ -1552,14 +1564,17 @@ img {
   background-color: #ccc;
   color: #000; }
 
+.news-inner .title {
+  margin-bottom: 14px; }
+
+.news-inner p {
+  margin-bottom: 28px; }
+
 .news-inner__date {
   color: #5F5F5F;
   font-family: 'mont-medium', Serif;
   font-size: 14px;
   margin-bottom: 2.5em; }
-
-.news-inner__content {
-  margin-bottom: 102px; }
 
 .news-inner__subttl {
   color: #000;
@@ -1582,9 +1597,13 @@ img {
     display: block;
     margin-left: auto; }
   .news-inner__design_right .news-inner__footnote {
+    padding: 36px 75px 36px 0;
     left: 5px; }
-  .news-inner__design_left .news-inner__footnote {
-    left: 30%; }
+  .news-inner__design_left {
+    margin-top: 43px; }
+    .news-inner__design_left .news-inner__footnote {
+      left: 30%;
+      padding: 34px 48px; }
 
 .news-inner .mt-minus {
   margin-top: -25px; }
@@ -1674,23 +1693,12 @@ img {
 
 .feedback {
   background-color: #fff;
-  grid-column: 5/13;
-  padding-top: 60px;
-  padding-bottom: 70px;
+  padding: 60px 80px;
   box-sizing: border-box;
+  margin-top: 100px;
   position: relative;
-  margin-top: 100px; }
-  .feedback:before, .feedback:after {
-    content: '';
-    background-color: #fff;
-    height: 100%;
-    width: 90px;
-    position: absolute;
-    top: 0; }
-  .feedback:before {
-    left: -90px; }
-  .feedback:after {
-    right: -90px; }
+  left: -57px;
+  width: calc(100% + 57px); }
 
 .form__wr {
   justify-content: space-between; }
@@ -1844,23 +1852,56 @@ img {
 .js-content-scroll.is-scrolling {
   padding-top: 92px; }
 
+@media (min-width: 1800.98px) {
+  .sidebar {
+    padding-left: 0; } }
+
+@media (min-width: 1919.98px) {
+  .feedback:after {
+    content: '';
+    height: 100%;
+    width: 100px;
+    right: -100px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 10;
+    top: 0; }
+  .case:after {
+    content: '';
+    height: 100%;
+    width: 100px;
+    right: -100px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 10;
+    top: 0; }
+  .page-header .first__head:after {
+    content: '';
+    height: 100%;
+    width: 100px;
+    right: -100px;
+    background-color: #F8F8F8;
+    position: absolute;
+    z-index: 10;
+    top: 0; } }
+
 @media (min-width: 2000.98px) {
   .slider__counter {
     right: 15%; } }
 
-@media (max-width: 1800.98px) {
-  .case:before, .case:after {
-    display: none; }
-  .case {
-    padding-left: 80px;
-    padding-right: 80px; } }
-
 @media (max-width: 1600.98px) {
+  .page-header .container {
+    width: 100%;
+    background: transparent;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); }
+    .page-header .container .first__head {
+      background: #F8F8F8;
+      grid-column: 5/end;
+      margin-left: -17px; }
   .container {
     box-sizing: border-box; }
   .page-header .nav {
-    grid-column: 5/13; }
-  .page-header .container {
     grid-column: 5/13; }
   .footer__adress {
     grid-column: 10/13; }
@@ -1870,7 +1911,8 @@ img {
     width: 980px; }
   .sidebar {
     padding-left: 20px;
-    padding-right: 20px; }
+    padding-right: 20px;
+    margin-right: 17px; }
   .sidebar:before {
     width: 30px;
     left: -30px; }
@@ -1881,23 +1923,33 @@ img {
   .contacts__info {
     max-width: 85%; }
   .content__flex {
-    margin-right: 0; } }
+    margin-right: 0; }
+  .contacts__item {
+    height: auto;
+    padding-top: 150px;
+    padding-bottom: 150px; } }
 
 @media (max-width: 1370.98px) {
+  .news-inner__design {
+    margin-bottom: 40px; }
+    .news-inner__design .news-inner__footnote {
+      box-shadow: 0 0px 4px #ccc; }
+    .news-inner__design_right {
+      margin-top: 25px; }
+      .news-inner__design_right .news-inner__footnote {
+        padding: 36px 75px; }
   .top-phone {
     grid-column: 10/13; }
   .slider__dots {
     width: 810px; }
   .nav {
-    grid-column: 5 / 10; }
+    grid-column: 4 / 10; }
   .page-header .nav {
     grid-column: 4/13; }
-  .page-header .container {
-    width: calc(100% - 450px); }
-  .sticky-wrapper {
-    width: 350px; }
+  .page-header .container .first__head {
+    margin-left: 0; }
   .sidebar {
-    width: 350px; }
+    margin-right: 0; }
     .sidebar__contacts {
       flex-wrap: wrap;
       position: relative;
@@ -1924,30 +1976,51 @@ img {
   .news__list-year {
     justify-content: flex-start; }
   .news__list-year__item {
-    width: 14%; }
+    width: 14%;
+    line-height: 34px; }
   .news-inner__design {
-    margin-bottom: 30px; } }
+    margin-bottom: 30px; }
+  .contacts__item {
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 80px; } }
+
+@media (max-width: 1360.98px) {
+  .news__last {
+    display: none; } }
 
 @media (max-width: 1280.98px) {
-  .page-header .container {
-    width: calc(100% - 410px); }
-  .container {
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    padding: 0 60px; }
+  .news-inner__footnote {
+    position: static;
+    max-width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  .news-inner .mt-minus {
+    margin-top: 0; }
+  .news-inner__img {
+    text-align: center; }
+  .news-inner__design_right img {
+    margin: auto; }
+  .news-inner__design:last-child {
+    margin-bottom: 0; }
+  .section-in_main .container {
+    padding: 0; }
+  .page-header .container .first__head {
+    margin-left: 0; }
+  .sidebar:before {
+    display: none; }
+  .logo__caption {
+    font-size: 25px; }
+  .slider__dots {
+    margin: 0 18%; }
+  .sticky-wrapper {
+    width: auto; }
   .sidebar {
-    box-sizing: border-box; }
-    .sidebar:before {
-      width: 60px;
-      left: -60px; }
-    .sidebar:after {
-      width: 60px;
-      right: -60px; }
-  .case:before {
-    width: 60px;
-    left: -60px; }
-  .case:after {
-    width: 60px;
-    right: -60px; }
+    box-sizing: border-box;
+    max-width: inherit;
+    width: auto; }
+  .sidebar__nav_link {
+    font-size: 16px; }
   .feedback:before {
     width: 60px;
     left: -60px; }
@@ -1968,27 +2041,28 @@ img {
   .news__list {
     width: 100%; }
   .news-inner__img img {
-    max-width: 50%; }
-  .news-inner .mt-minus {
-    margin-top: 170px; }
+    max-width: 100%; }
   .only-1280 {
     display: block; }
   .news__list-year__item {
     margin-bottom: 10px; }
   .news__list-year__item_active {
-    font-size: 22px; } }
+    font-size: 22px; }
+  .content__in_design_right.myClass {
+    padding-left: 15px; }
+  .content__in_design_left .title {
+    margin-left: 80px; }
+  .case {
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 100%;
+    left: 0; } }
 
 @media (max-width: 1025.98px) {
-  .sticky-wrapper {
-    width: 300px; }
-  .sidebar {
-    width: 300px; }
-  .container {
-    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr)); }
   .nav {
     grid-column: 5 / 13; }
   .top-phone {
-    grid-column: 10/13; }
+    grid-column: 9/13; }
   .banner__ttl {
     font-size: 35px; }
   .slider__number {
@@ -2004,8 +2078,6 @@ img {
     height: 110px; }
   .page-header .nav {
     grid-column: 2/13; }
-  .page-header .container {
-    width: calc(100% - 360px); }
   .case__wrapper {
     flex-wrap: wrap; }
   .case__item {
@@ -2036,9 +2108,9 @@ img {
     grid-column: 5/13;
     margin-top: 20px; }
   .footer__copy {
-    grid-column: 5/8; }
+    grid-column: 5/end; }
   .footer__email {
-    grid-column: 9/13; }
+    grid-column: 5/end; }
   .only-laptop {
     display: block; }
   .content__in_design {
@@ -2064,7 +2136,6 @@ img {
     align-items: center; }
   .breadcrumbs__item {
     line-height: 1;
-    width: 100%;
     margin-bottom: 10px; }
   .contacts__wr {
     flex-wrap: wrap; }
@@ -2094,8 +2165,34 @@ img {
   .news-inner .mt-minus {
     margin-top: 20px; }
   .content {
-    padding-left: 0;
-    padding-right: 0; } }
+    padding-left: 20px;
+    padding-right: 20px; }
+  .content__in {
+    margin-top: 0; }
+  .content__in_design_left .title {
+    margin-left: 0; }
+  .content .accordeon__wr {
+    margin-bottom: 20px; }
+  .content__in_design_right.myClass {
+    padding-top: 0;
+    padding-left: 0; }
+  .main-case {
+    margin-top: 0; }
+  .case {
+    padding-top: 40px;
+    padding-bottom: 40px; }
+  .sidebar__nav_wr_top {
+    margin-bottom: 40px; }
+  .sidebar__nav {
+    padding-bottom: 0; }
+  .header .first__head {
+    padding-top: 15px; }
+  .title {
+    font-size: 25px; }
+  .case__ttl {
+    font-size: 22px; }
+  .banner__ttl {
+    font-size: 28px; } }
 
 @media (max-width: 768.98px) {
   body {
@@ -2139,31 +2236,30 @@ img {
     margin-right: 0; }
   .slider__dots {
     width: 465px; }
+  .banner__txt {
+    grid-column: 3/end; }
   .banner__ttl {
     font-size: 28px; }
   .banner__subttl {
     font-size: 18px; }
+  .slider__counter {
+    top: auto;
+    bottom: 20%; }
   .slider__number {
-    font-size: 100px; }
+    font-size: 58px; }
     .slider__number:after {
-      width: 170px;
-      height: 80px; }
+      display: none; }
   .slider__count {
-    font-size: 40px; }
+    font-size: 30px; }
   .sidebar {
-    grid-column: 1/13;
     position: relative;
     width: 100%;
-    padding: 80px 0 0 0; }
+    padding-top: 80px;
+    grid-column: 1/end;
+    padding-left: 16px;
+    padding-right: 16px; }
     .sidebar:after {
-      content: '';
-      display: block;
-      position: absolute;
-      top: 0;
-      right: -100px;
-      width: 100px;
-      height: 100%;
-      background-color: #fff; }
+      display: none; }
     .sidebar__nav_wr_top {
       display: flex;
       justify-content: space-between;
@@ -2174,33 +2270,41 @@ img {
       font-size: 16px; }
     .sidebar__contacts {
       display: none; }
-  .section-in .sidebar {
-    padding: 0; }
-  .section-in_main .sidebar {
-    padding: 80px 0 0 0; }
+  .page-header .container .first__head {
+    grid-column: 1/end;
+    padding-left: 16px;
+    padding-right: 16px; }
+  .content_wrap {
+    grid-column: 1/end; }
+  .footer__logo {
+    grid-column: 1/end; }
+  .footer__copy {
+    grid-column: 1/end; }
+  .footer__email {
+    grid-column: 1/end; }
+  .footer__item a, .footer__item p {
+    margin-bottom: 0; }
   .back {
     margin-top: 160px; }
   .content {
-    grid-column: 1/13;
+    grid-column: 1/end;
     margin-top: 50px;
     padding-top: 0;
     max-height: 100%; }
-  .footer__copy {
-    grid-column: 1/5; }
-  .footer__email {
-    grid-column: 5/8; }
+  .section-in {
+    padding-bottom: 40px; }
   .footer__adress {
-    grid-column: 1/13;
-    margin-top: 20px; }
+    grid-column: 1/end;
+    margin-top: 0; }
   .page-header .top-phone {
     display: block;
     color: #262626; }
   .page-header .hamburger:after, .page-header .hamburger:before {
     background-color: #262626; }
   .case {
-    grid-column: 1/13; }
+    grid-column: 1/end; }
   .feedback {
-    grid-column: 1/13; }
+    grid-column: 1/end; }
   .only-tablet {
     display: block; }
   .title {
@@ -2215,7 +2319,22 @@ img {
   .news__list-year, .news__list-month {
     display: none; }
   .news__list-selects {
-    display: flex; } }
+    display: flex; }
+  .container {
+    padding-left: 16px;
+    padding-right: 16px; }
+  .banner__ttl {
+    line-height: 1.2;
+    margin-bottom: 14px; }
+  .sticky-wrapper {
+    grid-column: 1/end;
+    width: 100%; } }
+
+@media (max-width: 640.98px) {
+  .footer .container {
+    grid-column-gap: 0; }
+  .footer .top-phone {
+    grid-column: 5/end; } }
 
 @media (max-width: 480.98px) {
   .news__list-year {
@@ -2242,7 +2361,8 @@ img {
     grid-column: 1/13; }
   .slider__dots {
     width: 86%;
-    bottom: 230px; }
+    bottom: 180px;
+    margin: 0 auto; }
   .language__link {
     font-size: 15px; }
   .mouse__caption {
@@ -2323,7 +2443,13 @@ img {
     left: -30px; }
   .feedback:after {
     width: 30px;
-    right: -30px; } }
+    right: -30px; }
+  .main-case .title {
+    line-height: 1.2; }
+  .footer__phone a {
+    white-space: nowrap; }
+  .sidebar__social_item:first-child {
+    margin-right: 16px; } }
 
 @media (max-width: 375.98px) {
   .top-phone {
@@ -2335,7 +2461,17 @@ img {
   .content__in .title {
     font-size: 20px; }
   .slider__dots {
-    bottom: 180px; } }
+    bottom: 160px; }
+  .banner__subttl {
+    font-size: 16px; }
+  .dots-wrap button.owl-dot {
+    margin-right: 18px; }
+  .header .first__head {
+    padding-top: 0; }
+  .sidebar__nav_item {
+    margin-bottom: 16px; }
+  .sidebar {
+    padding-bottom: 20px; } }
 
 @media (max-width: 320.98px) {
   .logo svg {
@@ -2351,4 +2487,4 @@ img {
     max-width: 70%; } }
 
 
-/*# sourceMappingURL=app.33e4550a276a1963093c.css.map*/
+/*# sourceMappingURL=app.ec5cfe5236b213b0d564.css.map*/

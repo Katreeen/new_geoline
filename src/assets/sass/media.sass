@@ -1,20 +1,65 @@
+@media (min-width: 1800.98px)
+  .sidebar
+    padding-left: 0 
+@media (min-width: 1919.98px)
+  .feedback
+    &:after
+      content: ''
+      height: 100%
+      width: 100px
+      right: -100px
+      background-color: #fff
+      position: absolute
+      z-index: 10
+      top: 0
+  .case
+    &:after
+      content: ''
+      height: 100%
+      width: 100px
+      right: -100px
+      background-color: #fff
+      position: absolute
+      z-index: 10
+      top: 0
+  .page-header 
+    .first__head
+      &:after
+        content: ''
+        height: 100%
+        width: 100px
+        right: -100px
+        background-color:#F8F8F8
+        position: absolute
+        z-index: 10
+        top: 0
+
 @media (min-width: 2000.98px)
   .slider__counter
     right: 15%
+
 @media (max-width: 1800.98px)
-  .case:before, .case:after
-    display: none
-  .case
-    padding-left: 80px
-    padding-right: 80px
+  // .case:before, .case:after
+  //   display: none
+  // .case
+  //   padding-left: 80px
+  //   padding-right: 80px
 @media (max-width: 1600.98px)
+  .page-header
+    .container
+      width: 100%
+      background: transparent
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      .first__head
+        background: #F8F8F8
+        grid-column: 5/end;
+        margin-left: -17px;
   .container
     box-sizing: border-box
   .page-header
     .nav
       grid-column: 5/13
-    .container
-      grid-column: 5/13;
   .footer__adress
     grid-column: 10/13
   .footer__email
@@ -24,6 +69,7 @@
   .sidebar
     padding-left: 20px
     padding-right: 20px
+    margin-right: 17px
   .sidebar:before
     width: 30px
     left: -30px
@@ -35,23 +81,39 @@
     max-width: 85%
   .content__flex
     margin-right: 0
-
+  .contacts__item
+    height: auto
+    padding-top: 150px
+    padding-bottom: 150px
 @media (max-width: 1370.98px)
+  .news-inner__design 
+    margin-bottom: 40px
+    .news-inner__footnote
+      box-shadow: 0 0px 4px #ccc
+    &_right
+      margin-top: 25px
+      .news-inner__footnote
+        padding: 36px 75px
+
+     
   .top-phone
     grid-column: 10/13
   .slider__dots
     width: 810px
   .nav
-    grid-column: 5 / 10
+    grid-column: 4 / 10
   .page-header
     .nav
       grid-column: 4/13
-    .container
-      width: calc(100% - 450px)
+    .container 
+      .first__head
+        margin-left: 0
+    
   .sticky-wrapper
-    width: 350px
+    // width: 350px
   .sidebar
-    width: 350px
+    //width: 350px
+    margin-right: 0;
     &__contacts
       flex-wrap: wrap
       position: relative
@@ -79,31 +141,61 @@
     justify-content: flex-start
   .news__list-year__item
     width: 14%
+    line-height: 34px
+
   .news-inner__design
     margin-bottom: 30px
+  .contacts__item
+    height: auto
+    padding-top: 80px
+    padding-bottom: 80px
+
+
+@media (max-width: 1360.98px)
+  .news__last
+    display: none
   
 @media (max-width: 1280.98px)
-  .page-header
+  .news-inner__footnote
+    position: static
+    max-width: 100%
+    margin-top: 20px
+    margin-bottom: 20px
+  .news-inner 
+    .mt-minus
+      margin-top: 0
+  .news-inner__img
+    text-align: center
+  .news-inner__design_right img
+    margin: auto
+  .news-inner__design:last-child
+    margin-bottom: 0
+  .section-in_main
     .container
-      width: calc(100% - 410px)
-  .container
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr))
-    padding: 0 60px
+      padding: 0
+  .page-header 
+    .container 
+      .first__head
+        margin-left: 0
+
+  .sidebar:before
+    display: none
+  .logo__caption
+    font-size: 25px
+  .slider__dots
+    margin: 0 18%
+  .sticky-wrapper
+    width: auto
+    //margin-right: 26px
+    //min-width: 383px
   .sidebar
     box-sizing: border-box
-    &:before
-      width: 60px
-      left: -60px
-    &:after
-      width: 60px
-      right: -60px
-  .case
-    &:before
-      width: 60px
-      left: -60px
-    &:after
-      width: 60px
-      right: -60px
+    max-width: inherit
+    width: auto
+    
+  .sidebar__nav_link
+    font-size: 16px
+  
   .feedback
     &:before
       width: 60px
@@ -126,26 +218,32 @@
   .news__list
     width: 100%
   .news-inner__img img
-    max-width: 50%
-  .news-inner .mt-minus
-    margin-top: 170px
+    max-width: 100%
+
   .only-1280
     display: block
   .news__list-year__item
     margin-bottom: 10px
   .news__list-year__item_active
     font-size: 22px
+  .content__in_design_right.myClass
+    padding-left: 15px
+  .content__in_design_left 
+    .title
+      margin-left: 80px
+  
+  .case
+    padding-left: 40px
+    padding-right: 40px
+    width: 100%
+    left: 0
+
+
 @media (max-width: 1025.98px)
-  .sticky-wrapper
-    width: 300px
-  .sidebar
-    width: 300px
-  .container
-    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr))
   .nav
     grid-column: 5 / 13
   .top-phone
-    grid-column: 10/13
+    grid-column: 9/13
   .banner__ttl
     font-size: 35px
   .slider__number
@@ -162,8 +260,7 @@
   .page-header
     .nav
       grid-column: 2/13
-    .container
-      width: calc(100% - 360px)
+    
   .case
     &__wrapper
       flex-wrap: wrap
@@ -175,7 +272,6 @@
     .case__wrapper
       flex-wrap: nowrap
     .case__item
-
       width: 300px
       flex: 0 0 300px
       max-width: 100%
@@ -197,9 +293,9 @@
     grid-column: 5/13
     margin-top: 20px
   .footer__copy
-    grid-column: 5/8
+    grid-column: 5/end
   .footer__email
-    grid-column: 9/13
+    grid-column: 5/end
   .only-laptop
     display: block
   .content
@@ -226,7 +322,7 @@
     align-items: center
   .breadcrumbs__item
     line-height: 1
-    width: 100%
+    // width: 100%
     margin-bottom: 10px
   .contacts__wr
     flex-wrap: wrap
@@ -256,8 +352,37 @@
   .news-inner .mt-minus
     margin-top: 20px
   .content
-    padding-left: 0;
-    padding-right: 0
+    padding-left: 20px
+    padding-right: 20px
+  .content__in
+    margin-top: 0
+  .content__in_design_left 
+    .title
+      margin-left: 0
+  .content 
+    .accordeon__wr
+      margin-bottom: 20px
+  .content__in_design_right.myClass
+    padding-top: 0
+    padding-left: 0
+  .main-case
+    margin-top: 0
+  .case
+    padding-top: 40px
+    padding-bottom: 40px
+  .sidebar__nav_wr_top
+    margin-bottom: 40px
+  .sidebar__nav
+    padding-bottom: 0
+  .header
+    .first__head
+      padding-top: 15px
+  .title
+    font-size: 25px
+  .case__ttl 
+    font-size: 22px
+  .banner__ttl
+    font-size: 28px
 @media (max-width: 768.98px)
   body
     overflow-x: hidden
@@ -302,31 +427,38 @@
     margin-right: 0
   .slider__dots
     width: 465px
+  .banner__txt
+    grid-column: 3/end  
   .banner__ttl
     font-size: 28px
   .banner__subttl
     font-size: 18px
+  .slider__counter 
+    top: auto
+    bottom: 20%
   .slider__number
-    font-size: 100px
+    font-size: 58px
     &:after
-      width: 170px
-      height: 80px
+      display: none
   .slider__count
-    font-size: 40px
+    font-size: 30px
   .sidebar
-    grid-column: 1/13
     position: relative
     width: 100%
-    padding: 80px 0 0 0
+    padding-top: 80px
+    grid-column: 1/end
+    padding-left: 16px
+    padding-right: 16px
     &:after
-      content: ''
-      display: block
-      position: absolute
-      top: 0
-      right: -100px
-      width: 100px
-      height: 100%
-      background-color: #fff
+      display: none
+      // content: ''
+      // display: block
+      // position: absolute
+      // top: 0
+      // right: -100px
+      // width: 100px
+      // height: 100%
+      // background-color: #fff
     &__nav_wr_top
       display: flex
       justify-content: space-between
@@ -337,25 +469,35 @@
       font-size: 16px
     &__contacts
       display: none
-  .section-in .sidebar
-    padding: 0
-  .section-in_main .sidebar
-    padding: 80px 0 0 0
-  
+  .page-header 
+    .container 
+      .first__head
+        grid-column: 1/end
+        padding-left: 16px
+        padding-right: 16px
+  .content_wrap
+    grid-column: 1/end
+  .footer__logo
+    grid-column: 1/end
+  .footer__copy 
+    grid-column: 1/end
+  .footer__email
+    grid-column: 1/end
+  .footer__item a, .footer__item p
+    margin-bottom: 0
   .back
     margin-top: 160px
   .content
-    grid-column: 1/13
+    grid-column: 1/end
     margin-top: 50px
     padding-top: 0
     max-height: 100%
-  .footer__copy
-    grid-column: 1/5
-  .footer__email
-    grid-column: 5/8
+  .section-in
+    padding-bottom: 40px
+  
   .footer__adress
-    grid-column: 1/13
-    margin-top: 20px
+    grid-column: 1/end
+    margin-top: 0
   .page-header
     .top-phone
       display: block
@@ -363,9 +505,9 @@
     .hamburger:after, .hamburger:before
       background-color: #262626
   .case
-    grid-column: 1/13
+    grid-column: 1/end
   .feedback
-    grid-column: 1/13
+    grid-column: 1/end
   .only-tablet
     display: block
   .title
@@ -381,6 +523,24 @@
     display: none
   .news__list-selects
     display: flex
+  .container
+    padding-left: 16px
+    padding-right: 16px
+  .banner__ttl
+    line-height: 1.2
+    margin-bottom: 14px
+  .sticky-wrapper
+    grid-column: 1/end
+    width: 100%
+
+    
+@media (max-width: 640.98px)
+  .footer 
+    .container 
+      grid-column-gap: 0
+    .top-phone
+      grid-column: 5/end
+
 @media (max-width: 480.98px)
   .news__list-year
     flex-wrap: wrap
@@ -406,7 +566,8 @@
     grid-column: 1/13
   .slider__dots
     width: 86%
-    bottom: 230px
+    bottom: 180px
+    margin: 0 auto
   .language__link
     font-size: 15px
   .mouse__caption
@@ -490,6 +651,12 @@
     &:after
       width: 30px
       right: -30px
+  .main-case .title
+    line-height: 1.2
+  .footer__phone a
+    white-space: nowrap
+  .sidebar__social_item:first-child
+    margin-right: 16px
 @media (max-width: 375.98px)
   .top-phone
     font-size: 16px
@@ -500,8 +667,18 @@
   .content__in .title
     font-size: 20px
   .slider__dots
-    bottom: 180px
-
+    bottom: 160px
+  .banner__subttl 
+    font-size: 16px
+  .dots-wrap button.owl-dot
+    margin-right: 18px
+  .header 
+    .first__head
+      padding-top: 0
+  .sidebar__nav_item 
+    margin-bottom: 16px
+  .sidebar
+    padding-bottom: 20px
 @media (max-width: 320.98px)
   .logo
     svg
