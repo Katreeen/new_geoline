@@ -130,7 +130,7 @@ ul
 img
   max-width: 100%
 .section-in
-  padding-bottom: 100px
+  padding-bottom: 0
   .container
     padding: 0
     max-width: 1720px
@@ -260,6 +260,7 @@ img
   position: relative
   &__wrapper
     justify-content: space-between
+    align-items: center
   &__item
     transition: .5s all ease-in-out
     display: flex
@@ -272,9 +273,10 @@ img
         background-image: url("data:image/svg+xml,%3Csvg width='5' height='2' viewBox='0 0 5 2' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2.68506 1.92456L0.815918 0.0555191H4.5541C4.82119 0.0555191 3.41936 1.30155 2.68506 1.92456Z' fill='%2378C0FF'/%3E%3C/svg%3E%0A")
         background-repeat: no-repeat
         width: 5px
-        height: 2px
-        margin-left: 10px
+        height: 5px
+        margin-left: 6px
         padding-bottom: 5px
+        background-position: center
       &:hover, &_active
         &:after
           background-image: url("data:image/svg+xml,%3Csvg width='5' height='2' viewBox='0 0 5 2' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2.27979 1.92456L0.410645 0.0555191H4.14883C4.41591 0.0555191 3.01409 1.30155 2.27979 1.92456Z' fill='white'/%3E%3C/svg%3E%0A")
@@ -286,7 +288,7 @@ img
     font-size: 15px
     text-decoration: none
     transition: .5s all ease-in-out
-    padding-bottom: 10px
+    //padding-bottom: 10px
     &:hover
       color: #fff
   &__sub
@@ -441,7 +443,7 @@ img
     bottom: 160px
     max-width: 100%
     width: 1140px
-    left: 0
+    left: 13px
     right: 0
     margin: 0 auto
     display: flex
@@ -487,7 +489,7 @@ img
     -moz-border-radius: 50px
     -webkit-border-radius: 50px
     -moz-border-radius: 50px
-    margin-right: 25px
+    margin-right: 51px
     outline: none
     appearance: none
     transition: background-color .5s, width .5s ease-out
@@ -616,7 +618,7 @@ img
 .content_wrap
   grid-column: 5/end
 .content
-  padding-top: 160px
+  padding-top: 174px
   box-sizing: border-box
   padding-right: 44px
   padding-left: 30px
@@ -1059,7 +1061,7 @@ img
 .back
   display: inline-flex
   align-items: center
-  margin-bottom: 25px
+  margin-bottom: 42px
   text-decoration: none
   &__txt
     color: #5F5F5F
@@ -1070,7 +1072,7 @@ img
     margin-left: 20px
 .breadcrumbs
   grid-column: 5/13
-  margin-bottom: 25px
+  margin-bottom: 56px
   line-height: 50px
   &__wr
     display: flex
@@ -1105,6 +1107,8 @@ img
     width: 355px
     max-width: 100%
     margin-right: 80px
+    .title
+      font-family: 'mont-medium', serif
     &-mobile-link
       width: 100%
       color: #262626
@@ -1204,7 +1208,7 @@ img
         width: 22px
         height: 12px
         transition: .3s all ease-in-out
-        margin-right: 10px
+        margin-left: 17px
       &:hover
         color: #0B7CD3
         svg

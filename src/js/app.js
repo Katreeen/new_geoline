@@ -33,7 +33,9 @@ $(() => {
             posUpdate();
 
         },
+        //dotsContainer: '.main-dots',
         onChanged: posUpdate,
+
     });
     owl.on('changed.owl.carousel', function (e) {
         $('.slider__counter').html('<div class="slider__number">0' + ++e.page.index + '</div>' + '<div class="slider__count">0' + e.item.count + '</div>')

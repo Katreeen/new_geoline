@@ -649,6 +649,7 @@ $(function () {
       addDotCurrent();
       posUpdate();
     },
+    //dotsContainer: '.main-dots',
     onChanged: posUpdate
   });
   owl.on('changed.owl.carousel', function (e) {
@@ -11621,4 +11622,4 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;function _type
 /***/ })
 
 /******/ });
-//# sourceMappingURL=app.40836aad18ca20950fd9.js.map
+//# sourceMappingURL=app.8316af245072b0e7f8a8.js.map

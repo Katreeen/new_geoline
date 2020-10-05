@@ -490,7 +490,7 @@ img {
   max-width: 100%; }
 
 .section-in {
-  padding-bottom: 100px; }
+  padding-bottom: 0; }
   .section-in .container {
     padding: 0;
     max-width: 1720px; }
@@ -607,7 +607,8 @@ img {
   grid-column: 7 / 11;
   position: relative; }
   .nav__wrapper {
-    justify-content: space-between; }
+    justify-content: space-between;
+    align-items: center; }
   .nav__item {
     transition: .5s all ease-in-out;
     display: flex;
@@ -619,9 +620,10 @@ img {
       background-image: url("data:image/svg+xml,%3Csvg width='5' height='2' viewBox='0 0 5 2' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2.68506 1.92456L0.815918 0.0555191H4.5541C4.82119 0.0555191 3.41936 1.30155 2.68506 1.92456Z' fill='%2378C0FF'/%3E%3C/svg%3E%0A");
       background-repeat: no-repeat;
       width: 5px;
-      height: 2px;
-      margin-left: 10px;
-      padding-bottom: 5px; }
+      height: 5px;
+      margin-left: 6px;
+      padding-bottom: 5px;
+      background-position: center; }
     .nav__item_sub:hover:after, .nav__item_sub_active:after {
       background-image: url("data:image/svg+xml,%3Csvg width='5' height='2' viewBox='0 0 5 2' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2.27979 1.92456L0.410645 0.0555191H4.14883C4.41591 0.0555191 3.01409 1.30155 2.27979 1.92456Z' fill='white'/%3E%3C/svg%3E%0A"); }
     .nav__item_sub:hover .nav__link, .nav__item_sub_active .nav__link {
@@ -631,8 +633,7 @@ img {
     font-family: 'mont-regular', serif;
     font-size: 15px;
     text-decoration: none;
-    transition: .5s all ease-in-out;
-    padding-bottom: 10px; }
+    transition: .5s all ease-in-out; }
     .nav__link:hover {
       color: #fff; }
   .nav__sub {
@@ -789,7 +790,7 @@ img {
   bottom: 160px;
   max-width: 100%;
   width: 1140px;
-  left: 0;
+  left: 13px;
   right: 0;
   margin: 0 auto;
   display: flex; }
@@ -832,7 +833,7 @@ img {
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
-    margin-right: 25px;
+    margin-right: 51px;
     outline: none;
     -webkit-appearance: none;
        -moz-appearance: none;
@@ -960,7 +961,7 @@ img {
   grid-column: 5/end; }
 
 .content {
-  padding-top: 160px;
+  padding-top: 174px;
   box-sizing: border-box;
   padding-right: 44px;
   padding-left: 30px; }
@@ -1385,7 +1386,7 @@ img {
 .back {
   display: inline-flex;
   align-items: center;
-  margin-bottom: 25px;
+  margin-bottom: 42px;
   text-decoration: none; }
   .back__txt {
     color: #5F5F5F;
@@ -1397,7 +1398,7 @@ img {
 
 .breadcrumbs {
   grid-column: 5/13;
-  margin-bottom: 25px;
+  margin-bottom: 56px;
   line-height: 50px; }
   .breadcrumbs__wr {
     display: flex;
@@ -1432,6 +1433,8 @@ img {
   width: 355px;
   max-width: 100%;
   margin-right: 80px; }
+  .news__last .title {
+    font-family: 'mont-medium', serif; }
   .news__last-mobile-link {
     width: 100%;
     color: #262626;
@@ -1537,7 +1540,7 @@ img {
       width: 22px;
       height: 12px;
       transition: .3s all ease-in-out;
-      margin-right: 10px; }
+      margin-left: 17px; }
     .news__item_name:hover {
       color: #0B7CD3; }
       .news__item_name:hover svg {
@@ -1895,6 +1898,10 @@ img {
     right: 15%; } }
 
 @media (max-width: 1800.98px) {
+  .slider__dots {
+    left: 0;
+    margin: 0 auto;
+    max-width: 1105px; }
   .header .first__head {
     padding-left: 40px;
     padding-right: 40px; } }
@@ -2470,17 +2477,17 @@ img {
   .sidebar__social_item:first-child {
     margin-right: 16px; } }
 
+@media (max-width: 400.98px) {
+  .slider__dots {
+    bottom: 200px; } }
+
 @media (max-width: 375.98px) {
   .top-phone {
     font-size: 16px; }
-  .slider__dots {
-    bottom: 250px; }
   .title {
     font-size: 25px; }
   .content__in .title {
     font-size: 20px; }
-  .slider__dots {
-    bottom: 160px; }
   .banner__subttl {
     font-size: 16px; }
   .dots-wrap button.owl-dot {
@@ -2490,7 +2497,9 @@ img {
   .sidebar__nav_item {
     margin-bottom: 16px; }
   .sidebar {
-    padding-bottom: 20px; } }
+    padding-bottom: 20px; }
+  .first__bottom {
+    top: -10px; } }
 
 @media (max-width: 320.98px) {
   .logo svg {
@@ -2506,4 +2515,4 @@ img {
     max-width: 70%; } }
 
 
-/*# sourceMappingURL=app.40836aad18ca20950fd9.css.map*/
+/*# sourceMappingURL=app.8316af245072b0e7f8a8.css.map*/
