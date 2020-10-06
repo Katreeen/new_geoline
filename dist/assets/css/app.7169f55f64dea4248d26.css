@@ -605,7 +605,8 @@ img {
 
 .nav {
   grid-column: 7 / 11;
-  position: relative; }
+  position: relative;
+  top: -2px; }
   .nav__wrapper {
     justify-content: space-between;
     align-items: center; }
@@ -2556,4 +2557,4 @@ img {
     max-width: 70%; } }
 
 
-/*# sourceMappingURL=app.18c4210a2b696a4ad4d6.css.map*/
+/*# sourceMappingURL=app.7169f55f64dea4248d26.css.map*/
