@@ -1061,7 +1061,7 @@ img {
       background-position: 0px -9px; }
 
 .case {
-  padding: 90px 0 90px 114px;
+  padding: 90px 0 90px 86px;
   box-sizing: border-box;
   background-color: #fff;
   position: relative;
@@ -1240,7 +1240,9 @@ img {
   position: relative;
   z-index: 30; }
   .footer .container {
-    grid-column-gap: 40px; }
+    grid-column-gap: 40px;
+    max-width: 1720px;
+    padding: 0; }
   .footer__logo {
     grid-column: 1/4; }
   .footer__item a, .footer__item p {
@@ -1482,7 +1484,8 @@ img {
 
 .news__list {
   width: 650px;
-  max-width: 100%; }
+  max-width: 100%;
+  margin-bottom: 30px; }
 
 .news__list-year {
   display: flex;
@@ -1931,6 +1934,10 @@ img {
     right: 15%; } }
 
 @media (max-width: 1800.98px) {
+  .footer .container {
+    padding-left: 41px;
+    padding-right: 41px;
+    max-width: 1660px; }
   .header .first__head {
     padding-left: 40px;
     padding-right: 40px; } }
@@ -1980,7 +1987,10 @@ img {
   .news-inner__design {
     margin-bottom: 102px; }
   .news-inner__design_right .news-inner__footnote {
-    right: 20%; } }
+    right: 20%; }
+  .footer .container {
+    padding-left: 58px;
+    padding-right: 58px; } }
 
 @media (max-width: 1370.98px) {
   .news-inner__design .news-inner__footnote {
@@ -2076,6 +2086,8 @@ img {
     width: 100%; }
   .news-inner__img img {
     max-width: 100%; }
+  .case {
+    padding-left: 44px; }
   .only-1280 {
     display: block; }
   .news__list-year__item {
@@ -2131,12 +2143,15 @@ img {
     height: 110px; }
   .page-header .nav {
     grid-column: 2/13; }
-  .case__wrapper {
-    flex-wrap: wrap; }
-  .case__item {
-    flex: 0 0 50%;
-    max-width: 50%;
-    margin-bottom: 20px; }
+  .case {
+    padding-left: 20px;
+    padding-right: 20px; }
+    .case__wrapper {
+      flex-wrap: wrap; }
+    .case__item {
+      flex: 0 0 50%;
+      max-width: 50%;
+      margin-bottom: 20px; }
   .main-case .case__wrapper {
     flex-wrap: nowrap; }
   .main-case .case__item {
@@ -2245,9 +2260,14 @@ img {
   .case__ttl {
     font-size: 22px; }
   .banner__ttl {
-    font-size: 28px; } }
+    font-size: 28px; }
+  .footer__logo_img {
+    min-width: 60px; } }
 
 @media (max-width: 920.98px) {
+  .footer .container {
+    padding-left: 16px;
+    padding-right: 16px; }
   .sidebar {
     padding-left: 20px;
     padding-right: 20px; }
@@ -2569,4 +2589,4 @@ img {
     max-width: 70%; } }
 
 
-/*# sourceMappingURL=app.028a224482220435e8f8.css.map*/
+/*# sourceMappingURL=app.7d4c9e8e4587f55cb0b6.css.map*/
