@@ -89,17 +89,20 @@
     padding-bottom: 150px
   .dots-wrap .container
     padding: 0 30px
+  .news-inner__design
+    margin-bottom: 102px
+  .news-inner__design_right 
+    .news-inner__footnote
+      right: 20%
 @media (max-width: 1370.98px)
   .news-inner__design 
-    margin-bottom: 40px
+    //margin-bottom: 40px
     .news-inner__footnote
       box-shadow: 0 0px 4px #ccc
     &_right
       margin-top: 25px
       .news-inner__footnote
         padding: 36px 75px
-
-     
   .top-phone
     grid-column: 10/13
 
@@ -107,7 +110,7 @@
     grid-column: 4 / 10
   .page-header
     .nav
-      grid-column: 4/13
+      grid-column: 3/13
     .container 
       .first__head
         margin-left: 0
@@ -145,9 +148,6 @@
   .news__list-year__item
     width: 14%
     line-height: 34px
-
-  .news-inner__design
-    margin-bottom: 30px
   .contacts__item
     height: auto
     padding-top: 80px
@@ -159,20 +159,10 @@
     display: none
   
 @media (max-width: 1280.98px)
-  .news-inner__footnote
-    position: static
-    max-width: 100%
-    margin-top: 20px
-    margin-bottom: 20px
-  .news-inner 
-    .mt-minus
-      margin-top: 0
-  .news-inner__img
-    text-align: center
-  .news-inner__design_right img
-    margin: auto
-  .news-inner__design:last-child
-    margin-bottom: 0
+  
+  .news-inner__design
+    margin-bottom: 102px
+  
   .section-in_main
     .container
       padding: 0
@@ -239,11 +229,34 @@
     padding-right: 40px
     width: 100%
     left: 0
+  .news-inner__footnote
+    max-width: 100%
 
+@media (max-width: 1200.98px)
+  .news-inner__design
+    margin-bottom: 50px
+  .news-inner .news-inner__design:last-child
+    margin-bottom: 50px
+  .news-inner__footnote
+    position: static
+    max-width: 100%
+    margin-top: 20px
+    margin-bottom: 20px
+  .news-inner 
+    .mt-minus
+      margin-top: 0
+  .news-inner__img
+    text-align: center
+  .news-inner__design_right img
+    margin: auto
+  
 
 @media (max-width: 1025.98px)
   .nav
     grid-column: 5 / 13
+  .page-header
+    .nav
+      grid-column: 1/13
   .top-phone
     grid-column: 9/13
   .banner__ttl
