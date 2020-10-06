@@ -1251,11 +1251,21 @@ img {
   .footer__item p:last-child {
     line-height: 25px; }
   .footer__copy {
-    grid-column: 5/8; }
+    grid-column: 5/8;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; }
   .footer__email {
-    grid-column: 8/10; }
+    grid-column: 8/10;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column; }
   .footer__adress {
-    grid-column: 10/end; }
+    grid-column: 10/end;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; }
     .footer__adress p {
       line-height: 30px; }
 
@@ -2546,4 +2556,4 @@ img {
     max-width: 70%; } }
 
 
-/*# sourceMappingURL=app.1c0e866d03fbf081dc88.css.map*/
+/*# sourceMappingURL=app.18c4210a2b696a4ad4d6.css.map*/
