@@ -43,9 +43,9 @@ $(() => {
 
 
     function addDotCurrent() {
-        $('.owl-dots').wrap('<div class="dots-wrap slider__dots"></div>');
+        $('.owl-dots').wrap('<div class="dots-wrap slider__dots"><div class="container"><div class="main_dots"></div></div></div>');
         //$('.owl-dots button').wrap('<li></li>');
-        $('.dots-wrap').append('<div class="dot-current-bg"></div>');
+        $('.main_dots').append('<div class="dot-current-bg"></div>');
     }
 
     function posUpdate(event) {

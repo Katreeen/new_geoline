@@ -307,7 +307,7 @@ template {
 @font-face {
   font-family: 'mont-light';
   src: url(../fonts/Montserrat-Light.eot);
-  src: url(../fonts/Montserrat-Light.eot?#iefix) format("embedded-opentype"), url(../fonts/Montserrat-Light.woff2) format("woff2"), url(../fonts/Montserrat-Light.woff) format("woff"), url(../fonts/Montserrat-Light.ttf) format("truetype"), url(D:\Work\in_work\new_geoline\src\assets\fonts\Montserrat-Light.svg) format("svg");
+  src: url(../fonts/Montserrat-Light.eot?#iefix) format("embedded-opentype"), url(../fonts/Montserrat-Light.woff2) format("woff2"), url(../fonts/Montserrat-Light.woff) format("woff"), url(../fonts/Montserrat-Light.ttf) format("truetype"), url(/home/tech-ekaterina/projects/new_geoline/src/assets/fonts/Montserrat-Light.svg) format("svg");
   font-weight: 300;
   font-style: normal;
   font-display: swap; }
@@ -315,7 +315,7 @@ template {
 @font-face {
   font-family: 'mont-medium';
   src: url(../fonts/Montserrat-Medium.eot);
-  src: url(../fonts/Montserrat-Medium.eot?#iefix) format("embedded-opentype"), url(../fonts/Montserrat-Medium.woff2) format("woff2"), url(../fonts/Montserrat-Medium.woff) format("woff"), url(../fonts/Montserrat-Medium.ttf) format("truetype"), url(D:\Work\in_work\new_geoline\src\assets\fonts\Montserrat-Medium.svg) format("svg");
+  src: url(../fonts/Montserrat-Medium.eot?#iefix) format("embedded-opentype"), url(../fonts/Montserrat-Medium.woff2) format("woff2"), url(../fonts/Montserrat-Medium.woff) format("woff"), url(../fonts/Montserrat-Medium.ttf) format("truetype"), url(/home/tech-ekaterina/projects/new_geoline/src/assets/fonts/Montserrat-Medium.svg) format("svg");
   font-weight: 500;
   font-style: normal;
   font-display: swap; }
@@ -323,7 +323,7 @@ template {
 @font-face {
   font-family: 'mont-regular';
   src: url(../fonts/Montserrat-Regular.eot);
-  src: url(../fonts/Montserrat-Regular.eot?#iefix) format("embedded-opentype"), url(../fonts/Montserrat-Regular.woff2) format("woff2"), url(../fonts/Montserrat-Regular.woff) format("woff"), url(../fonts/Montserrat-Regular.ttf) format("truetype"), url(D:\Work\in_work\new_geoline\src\assets\fonts\Montserrat-Regular.svg) format("svg");
+  src: url(../fonts/Montserrat-Regular.eot?#iefix) format("embedded-opentype"), url(../fonts/Montserrat-Regular.woff2) format("woff2"), url(../fonts/Montserrat-Regular.woff) format("woff"), url(../fonts/Montserrat-Regular.ttf) format("truetype"), url(/home/tech-ekaterina/projects/new_geoline/src/assets/fonts/Montserrat-Regular.svg) format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
@@ -331,7 +331,7 @@ template {
 @font-face {
   font-family: 'mont-bold';
   src: url(../fonts/Montserrat-Bold.eot);
-  src: url(../fonts/Montserrat-Bold.eot?#iefix) format("embedded-opentype"), url(../fonts/Montserrat-Bold.woff2) format("woff2"), url(../fonts/Montserrat-Bold.woff) format("woff"), url(../fonts/Montserrat-Bold.ttf) format("truetype"), url(D:\Work\in_work\new_geoline\src\assets\fonts\Montserrat-Bold.svg) format("svg");
+  src: url(../fonts/Montserrat-Bold.eot?#iefix) format("embedded-opentype"), url(../fonts/Montserrat-Bold.woff2) format("woff2"), url(../fonts/Montserrat-Bold.woff) format("woff"), url(../fonts/Montserrat-Bold.ttf) format("truetype"), url(/home/tech-ekaterina/projects/new_geoline/src/assets/fonts/Montserrat-Bold.svg) format("svg");
   font-weight: bold;
   font-style: normal;
   font-display: swap; }
@@ -339,7 +339,7 @@ template {
 @font-face {
   font-family: 'gil-bold';
   src: url(../fonts/Gilroy-Bold.eot);
-  src: url(../fonts/Gilroy-Bold.eot?#iefix) format("embedded-opentype"), url(../fonts/Gilroy-Bold.woff2) format("woff2"), url(../fonts/Gilroy-Bold.woff) format("woff"), url(../fonts/Gilroy-Bold.ttf) format("truetype"), url(D:\Work\in_work\new_geoline\src\assets\fonts\Gilroy-Bold.svg) format("svg");
+  src: url(../fonts/Gilroy-Bold.eot?#iefix) format("embedded-opentype"), url(../fonts/Gilroy-Bold.woff2) format("woff2"), url(../fonts/Gilroy-Bold.woff) format("woff"), url(../fonts/Gilroy-Bold.ttf) format("truetype"), url(/home/tech-ekaterina/projects/new_geoline/src/assets/fonts/Gilroy-Bold.svg) format("svg");
   font-weight: bold;
   font-style: normal;
   font-display: swap; }
@@ -347,7 +347,7 @@ template {
 @font-face {
   font-family: 'gil-extrabold';
   src: url(../fonts/Gilroy-ExtraBold.eot);
-  src: url(../fonts/Gilroy-ExtraBold.eot?#iefix) format("embedded-opentype"), url(../fonts/Gilroy-ExtraBold.woff2) format("woff2"), url(../fonts/Gilroy-ExtraBold.woff) format("woff"), url(../fonts/Gilroy-ExtraBold.ttf) format("truetype"), url(D:\Work\in_work\new_geoline\src\assets\fonts\Gilroy-ExtraBold.svg) format("svg");
+  src: url(../fonts/Gilroy-ExtraBold.eot?#iefix) format("embedded-opentype"), url(../fonts/Gilroy-ExtraBold.woff2) format("woff2"), url(../fonts/Gilroy-ExtraBold.woff) format("woff"), url(../fonts/Gilroy-ExtraBold.ttf) format("truetype"), url(/home/tech-ekaterina/projects/new_geoline/src/assets/fonts/Gilroy-ExtraBold.svg) format("svg");
   font-weight: 800;
   font-style: normal;
   font-display: swap; }
@@ -355,7 +355,7 @@ template {
 @font-face {
   font-family: 'got-bold';
   src: url(../fonts/GothamPro-Bold.eot);
-  src: url(../fonts/GothamPro-Bold.eot?#iefix) format("embedded-opentype"), url(../fonts/GothamPro-Bold.woff2) format("woff2"), url(../fonts/GothamPro-Bold.woff) format("woff"), url(../fonts/GothamPro-Bold.ttf) format("truetype"), url(D:\Work\in_work\new_geoline\src\assets\fonts\GothamPro-Bold.svg) format("svg");
+  src: url(../fonts/GothamPro-Bold.eot?#iefix) format("embedded-opentype"), url(../fonts/GothamPro-Bold.woff2) format("woff2"), url(../fonts/GothamPro-Bold.woff) format("woff"), url(../fonts/GothamPro-Bold.ttf) format("truetype"), url(/home/tech-ekaterina/projects/new_geoline/src/assets/fonts/GothamPro-Bold.svg) format("svg");
   font-weight: bold;
   font-style: normal;
   font-display: swap; }
@@ -363,7 +363,7 @@ template {
 @font-face {
   font-family: 'got-regular';
   src: url(../fonts/GothamPro.eot);
-  src: url(../fonts/GothamPro.eot?#iefix) format("embedded-opentype"), url(../fonts/GothamPro.woff2) format("woff2"), url(../fonts/GothamPro.woff) format("woff"), url(../fonts/GothamPro.ttf) format("truetype"), url(D:\Work\in_work\new_geoline\src\assets\fonts\GothamPro.svg) format("svg");
+  src: url(../fonts/GothamPro.eot?#iefix) format("embedded-opentype"), url(../fonts/GothamPro.woff2) format("woff2"), url(../fonts/GothamPro.woff) format("woff"), url(../fonts/GothamPro.ttf) format("truetype"), url(/home/tech-ekaterina/projects/new_geoline/src/assets/fonts/GothamPro.svg) format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
@@ -371,7 +371,7 @@ template {
 @font-face {
   font-family: 'got-medium';
   src: url(../fonts/GothamPro-Medium.eot);
-  src: url(../fonts/GothamPro-Medium.eot?#iefix) format("embedded-opentype"), url(../fonts/GothamPro-Medium.woff2) format("woff2"), url(../fonts/GothamPro-Medium.woff) format("woff"), url(../fonts/GothamPro-Medium.ttf) format("truetype"), url(D:\Work\in_work\new_geoline\src\assets\fonts\GothamPro-Medium.svg) format("svg");
+  src: url(../fonts/GothamPro-Medium.eot?#iefix) format("embedded-opentype"), url(../fonts/GothamPro-Medium.woff2) format("woff2"), url(../fonts/GothamPro-Medium.woff) format("woff"), url(../fonts/GothamPro-Medium.ttf) format("truetype"), url(/home/tech-ekaterina/projects/new_geoline/src/assets/fonts/GothamPro-Medium.svg) format("svg");
   font-weight: 500;
   font-style: normal;
   font-display: swap; }
@@ -379,7 +379,7 @@ template {
 @font-face {
   font-family: 'HelveticaNeueCyr';
   src: url(../fonts/HelveticaNeueCyr-Bold.eot);
-  src: url(../fonts/HelveticaNeueCyr-Bold.eot?#iefix) format("embedded-opentype"), url(../fonts/HelveticaNeueCyr-Bold.woff2) format("woff2"), url(../fonts/HelveticaNeueCyr-Bold.woff) format("woff"), url(../fonts/HelveticaNeueCyr-Bold.ttf) format("truetype"), url(D:\Work\in_work\new_geoline\src\assets\fonts\HelveticaNeueCyr-Bold.svg) format("svg");
+  src: url(../fonts/HelveticaNeueCyr-Bold.eot?#iefix) format("embedded-opentype"), url(../fonts/HelveticaNeueCyr-Bold.woff2) format("woff2"), url(../fonts/HelveticaNeueCyr-Bold.woff) format("woff"), url(../fonts/HelveticaNeueCyr-Bold.ttf) format("truetype"), url(/home/tech-ekaterina/projects/new_geoline/src/assets/fonts/HelveticaNeueCyr-Bold.svg) format("svg");
   font-weight: bold;
   font-style: normal;
   font-display: swap; }
@@ -387,7 +387,7 @@ template {
 @font-face {
   font-family: 'Arial';
   src: url(../fonts/ArialMT.eot);
-  src: url(../fonts/ArialMT.eot?#iefix) format("embedded-opentype"), url(../fonts/ArialMT.woff2) format("woff2"), url(../fonts/ArialMT.woff) format("woff"), url(../fonts/ArialMT.ttf) format("truetype"), url(D:\Work\in_work\new_geoline\src\assets\fonts\ArialMT.svg) format("svg");
+  src: url(../fonts/ArialMT.eot?#iefix) format("embedded-opentype"), url(../fonts/ArialMT.woff2) format("woff2"), url(../fonts/ArialMT.woff) format("woff"), url(../fonts/ArialMT.ttf) format("truetype"), url(/home/tech-ekaterina/projects/new_geoline/src/assets/fonts/ArialMT.svg) format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
@@ -789,11 +789,12 @@ img {
   position: absolute;
   bottom: 160px;
   max-width: 100%;
-  width: 1140px;
-  left: 13px;
+  left: 0;
   right: 0;
   margin: 0 auto;
   display: flex; }
+  .slider__dots .main_dots {
+    grid-column: 3/7; }
   .slider__dots .owl-dots {
     display: flex; }
     .slider__dots .owl-dots li {
@@ -820,6 +821,15 @@ img {
   position: relative;
   filter: url(#goo);
   -webkit-filter: url(#goo); }
+  .dots-wrap .container {
+    padding: 0;
+    grid-column: 1 / span 13;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+    z-index: 1;
+    max-width: 1660px;
+    width: 100%; }
   .dots-wrap button.owl-dot {
     position: relative;
     display: inline-block;
@@ -921,7 +931,7 @@ img {
       .sidebar__nav_item:last-child {
         margin-bottom: 0; }
     .sidebar__nav_link {
-      font-family: 'Arial';
+      font-family: 'got-regular', serif;
       color: #5F5F5F;
       font-size: 18px;
       text-decoration: none;
@@ -1898,10 +1908,6 @@ img {
     right: 15%; } }
 
 @media (max-width: 1800.98px) {
-  .slider__dots {
-    left: 0;
-    margin: 0 auto;
-    max-width: 1105px; }
   .header .first__head {
     padding-left: 40px;
     padding-right: 40px; } }
@@ -1927,8 +1933,6 @@ img {
     grid-column: 10/13; }
   .footer__email {
     grid-column: 8/10; }
-  .slider__dots {
-    width: 980px; }
   .sidebar {
     padding-left: 20px;
     padding-right: 20px;
@@ -1947,7 +1951,9 @@ img {
   .contacts__item {
     height: auto;
     padding-top: 150px;
-    padding-bottom: 150px; } }
+    padding-bottom: 150px; }
+  .dots-wrap .container {
+    padding: 0 30px; } }
 
 @media (max-width: 1370.98px) {
   .news-inner__design {
@@ -1960,8 +1966,6 @@ img {
         padding: 36px 75px; }
   .top-phone {
     grid-column: 10/13; }
-  .slider__dots {
-    width: 810px; }
   .nav {
     grid-column: 4 / 10; }
   .page-header .nav {
@@ -2031,8 +2035,6 @@ img {
     display: none; }
   .logo__caption {
     font-size: 25px; }
-  .slider__dots {
-    margin: 0 18%; }
   .sticky-wrapper {
     width: auto; }
   .sidebar {
@@ -2092,8 +2094,6 @@ img {
   .slider__number:after {
     width: 155px;
     height: 100px; }
-  .slider__dots {
-    width: 665px; }
   .header {
     height: 110px; }
   .page-header .nav {
@@ -2255,8 +2255,10 @@ img {
     display: none; }
   .sidebar__social_item_in {
     margin-right: 0; }
-  .slider__dots {
-    width: 465px; }
+  .dots-wrap .container {
+    padding: 0 16px; }
+  .dots-wrap button.owl-dot {
+    margin-right: 20px; }
   .banner__txt {
     grid-column: 3/end; }
   .banner__ttl {
@@ -2385,10 +2387,10 @@ img {
     display: none; }
   .banner__txt {
     grid-column: 1/13; }
-  .slider__dots {
-    width: 86%;
-    bottom: 180px;
-    margin: 0 auto; }
+  .slider__dots .main_dots {
+    grid-column: 1/13; }
+  .dots-wrap .container {
+    padding: 0 30px; }
   .language__link {
     font-size: 15px; }
   .mouse__caption {
@@ -2477,10 +2479,6 @@ img {
   .sidebar__social_item:first-child {
     margin-right: 16px; } }
 
-@media (max-width: 400.98px) {
-  .slider__dots {
-    bottom: 200px; } }
-
 @media (max-width: 375.98px) {
   .top-phone {
     font-size: 16px; }
@@ -2501,6 +2499,18 @@ img {
   .first__bottom {
     top: -10px; } }
 
+@media (max-height: 750.98px) {
+  .slider__dots {
+    bottom: 208px; } }
+
+@media (max-width: 420.98px) {
+  .slider__dots {
+    bottom: 247px; } }
+
+@media (max-width: 375.98px) {
+  .slider__dots {
+    bottom: 208px; } }
+
 @media (max-width: 320.98px) {
   .logo svg {
     width: 42px;
@@ -2515,4 +2525,4 @@ img {
     max-width: 70%; } }
 
 
-/*# sourceMappingURL=app.8316af245072b0e7f8a8.css.map*/
+/*# sourceMappingURL=app.8490c77c67441805189b.css.map*/

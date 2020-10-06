@@ -657,9 +657,9 @@ $(function () {
   });
 
   function addDotCurrent() {
-    $('.owl-dots').wrap('<div class="dots-wrap slider__dots"></div>'); //$('.owl-dots button').wrap('<li></li>');
+    $('.owl-dots').wrap('<div class="dots-wrap slider__dots"><div class="container"><div class="main_dots"></div></div></div>'); //$('.owl-dots button').wrap('<li></li>');
 
-    $('.dots-wrap').append('<div class="dot-current-bg"></div>');
+    $('.main_dots').append('<div class="dot-current-bg"></div>');
   }
 
   function posUpdate(event) {
@@ -11622,4 +11622,4 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;function _type
 /***/ })
 
 /******/ });
-//# sourceMappingURL=app.8316af245072b0e7f8a8.js.map
+//# sourceMappingURL=app.8490c77c67441805189b.js.map

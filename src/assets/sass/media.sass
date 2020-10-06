@@ -39,11 +39,6 @@
     right: 15%
 
 @media (max-width: 1800.98px)
-  .slider__dots
-    left: 0
-    margin: 0 auto
-    max-width: 1105px
-
   .header
     .first__head
       padding-left: 40px
@@ -72,8 +67,7 @@
     grid-column: 10/13
   .footer__email
     grid-column: 8/10
-  .slider__dots
-    width: 980px
+
   .sidebar
     padding-left: 20px
     padding-right: 20px
@@ -93,6 +87,8 @@
     height: auto
     padding-top: 150px
     padding-bottom: 150px
+  .dots-wrap .container
+    padding: 0 30px
 @media (max-width: 1370.98px)
   .news-inner__design 
     margin-bottom: 40px
@@ -106,8 +102,7 @@
      
   .top-phone
     grid-column: 10/13
-  .slider__dots
-    width: 810px
+
   .nav
     grid-column: 4 / 10
   .page-header
@@ -190,8 +185,7 @@
     display: none
   .logo__caption
     font-size: 25px
-  .slider__dots
-    margin: 0 18%
+  
   .sticky-wrapper
     width: auto
     //margin-right: 26px
@@ -261,8 +255,7 @@
   .slider__number:after
     width: 155px
     height: 100px
-  .slider__dots
-    width: 665px
+  
   .header
     height: 110px
   .page-header
@@ -434,8 +427,10 @@
     display: none
   .sidebar__social_item_in
     margin-right: 0
-  .slider__dots
-    width: 465px
+  .dots-wrap .container
+    padding: 0 16px
+  .dots-wrap button.owl-dot
+    margin-right: 20px
   .banner__txt
     grid-column: 3/end  
   .banner__ttl
@@ -581,10 +576,10 @@
     display: none
   .banner__txt
     grid-column: 1/13
-  .slider__dots
-    width: 86%
-    bottom: 180px
-    margin: 0 auto
+  .slider__dots .main_dots
+    grid-column: 1/13
+  .dots-wrap .container
+    padding: 0 30px
   .language__link
     font-size: 15px
   .mouse__caption
@@ -674,9 +669,8 @@
     white-space: nowrap
   .sidebar__social_item:first-child
     margin-right: 16px
-@media (max-width: 400.98px)
-  .slider__dots
-    bottom: 200px
+
+  
 @media (max-width: 375.98px)
   .top-phone
     font-size: 16px
@@ -699,6 +693,15 @@
     padding-bottom: 20px
   .first__bottom
     top: -10px
+@media (max-height: 750.98px)
+  .slider__dots
+    bottom: 208px
+@media (max-width: 420.98px)
+  .slider__dots
+    bottom: 247px
+@media (max-width: 375.98px)
+  .slider__dots
+    bottom: 208px
 @media (max-width: 320.98px)
   .logo
     svg

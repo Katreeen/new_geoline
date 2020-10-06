@@ -442,11 +442,13 @@ img
     position: absolute
     bottom: 160px
     max-width: 100%
-    width: 1140px
-    left: 13px
+    //width: 1140px
+    left: 0
     right: 0
     margin: 0 auto
     display: flex
+    .main_dots
+      grid-column: 3/7
     .owl-dots
       display: flex
       li
@@ -476,6 +478,15 @@ img
   position: relative
   filter: url(#goo)
   -webkit-filter: url(#goo)
+  .container
+    padding: 0
+    grid-column: 1 / span 13;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+    z-index: 1;
+    max-width: 1660px
+    width: 100%
   button.owl-dot
     position: relative
     display: inline-block
@@ -574,8 +585,8 @@ img
       &:last-child
         margin-bottom: 0
     &_link
-      //font-family: 'got-regular', serif
-      font-family: 'Arial';
+      font-family: 'got-regular', serif
+      //font-family: 'Arial';
       color: #5F5F5F
       font-size: 18px
       text-decoration: none
