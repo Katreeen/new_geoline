@@ -899,6 +899,8 @@ $('.js-select').select2({
 
 $(document).ready(function ($) {
   $('.js-tab-btn').click(function () {
+    $('.js-tab-btn').removeClass('active');
+    $(this).addClass('active');
     $('.vacancies__wr').removeClass('is-active').hide().filter('[id="' + $(this).data('city') + '"]').show();
   });
 });
@@ -11622,4 +11624,4 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;function _type
 /***/ })
 
 /******/ });
-//# sourceMappingURL=app.8490c77c67441805189b.js.map
+//# sourceMappingURL=app.1c0e866d03fbf081dc88.js.map

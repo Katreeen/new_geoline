@@ -564,10 +564,11 @@ img
   .title
     margin-bottom: 36px
   .logo
-    margin-bottom: 55px
+    margin-bottom: 70px
     text-decoration: none
     position: relative
     z-index: 100
+    height: 99px
     svg
       opacity: 0
   .logo__caption
@@ -629,15 +630,13 @@ img
 .content_wrap
   grid-column: 5/end
 .content
-  padding-top: 174px
+  padding-top: 169px
   box-sizing: border-box
   padding-right: 44px
   padding-left: 30px
 
   .accordeon__wr
     margin-bottom: 80px
-  
-
   &__in
     margin-top: 48px
     margin-bottom: 48px
@@ -668,6 +667,9 @@ img
   &__flex
     justify-content: flex-end
     margin-right: 80px
+.section-in_main
+  .content
+    padding-top: 169px
 .line-list
   li
     position: relative
@@ -695,7 +697,7 @@ img
     cursor: pointer
     color: #262626
     font-family: 'mont-medium', serif
-    padding: 18px 20px
+    padding: 18px 52px 18px 20px
     border-radius: 3px
     margin-bottom: 32px
     position: relative
@@ -1083,11 +1085,13 @@ img
     margin-left: 20px
 .breadcrumbs
   grid-column: 5/13
-  margin-bottom: 56px
-  line-height: 50px
+  margin-bottom: 42px
+  
   &__wr
     display: flex
     flex-wrap: wrap
+    min-height: 50px
+    align-items: center
   &__item
     line-height: 1.2
   &__link
@@ -1438,7 +1442,7 @@ img
 
 .vacancies
   &__map
-    margin-bottom: 75px
+    margin-bottom: 55px
     position: relative
     img
       width: 100%
@@ -1451,8 +1455,8 @@ img
     display: flex
     flex-wrap: wrap
   &__btn
-    margin-right: 9px
-    margin-bottom: 10px
+    margin-right: 10px
+    margin-bottom: 30px
     height: 30px
     display: flex
     align-items: center
@@ -1465,6 +1469,11 @@ img
     font-family: 'mont-medium', serif
     background-color: #fff
     color: #5F5F5F
+    padding-left: 12px
+    padding-right: 12px
+    &.active
+      color: #fff
+      background-color: #0B7CD3
     &:hover
       color: #fff
       background-color: #0B7CD3
